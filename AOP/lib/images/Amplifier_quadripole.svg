@@ -1,0 +1,6 @@
+<svg width="199mm" height="114mm" version="1.1" viewBox="0 0 199 114" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><rect width="199" height="114" fill="#fff"/>
+ <g fill="#fff" stroke="#000"><path d="m198 21h-100v80h100m-195-80h55v80h-55" fill="none"/><rect x="53" y="44" width="10" height="34"/><circle cx="98" cy="61" r="10" stroke-width="2"/><rect x="111" y="16" width="34" height="10"/></g>
+ <rect x="38" y="11" width="120" height="100" fill="none" stroke="#468" stroke-dasharray="6 2"/>
+ <g id="a"><path d="m22 13 10 3-10 3 3-3m0 19 3-10 3 10-3-3" fill="#a22"/><path d="m28 96v-70m-20-10h20" stroke="#a22" stroke-width=".6"/></g>
+ <use transform="matrix(-1 0 0 1 197 0)" xlink:href="#a"/>
+ <g font-family="Tiimes" font-size="13px" font-style="italic"><text x="9" y="11"> I<tspan dy="3" font-size="9px" font-style="normal">1</tspan></text><text x="177" y="11">I<tspan dy="3" font-size="9px" font-style="normal">2</tspan></text><text x="174" y="62">V<tspan dy="3" font-size="9px" font-style="normal">2</tspan></text><text x="11" y="62">V<tspan dy="3" font-size="9px" font-style="normal">1</tspan></text></g></svg>

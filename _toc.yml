@@ -1,0 +1,35 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+  - caption: Introduction  
+    chapters:
+    - file: Base_componant/Capacite
+    - file: Base_componant/diode/Diode 
+    - file: Base_componant/transistor/JFET
+    - file: Base_componant/transistor/Bipolaire
+  - caption: General circuit
+    chapters:
+    - file: General/Pont_diode
+    - file: General/Diode_roue_libre
+  - caption: Amplificator
+    chapters:
+    - file: AOP/01_Introduction_amplificateur
+    - file: AOP/02_Inverting_amplifier
+    - file: AOP/03_Non_inverseur_amplificator
+    - file: AOP/04_Suiveur
+    - file: AOP/05_Differential_amplificator
+    - file: AOP/06_Sommateur_amplificator
+    - file: AOP/07_Logarithme_amplificator
+    - file: AOP/08_class_A
+    - file: AOP/09_class_B
+    - file: AOP/10_class_AB
+    - file: AOP/11_class_C
+    - file: AOP/12_class_D
+    - file: AOP/13_class_E
+  - caption: Microelectronics
+    chapters:
+    - file: Logicol/Introduction_bar_metal_Layout
+    - file: Logicol/Jonction_PN

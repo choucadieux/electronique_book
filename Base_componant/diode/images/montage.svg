@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="216.54674mm"
+   height="128.95213mm"
+   viewBox="0 0 216.54674 128.95213"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="montage.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.68862935"
+     inkscape:cx="308.584"
+     inkscape:cy="389.90496"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <rect
+       x="318.31799"
+       y="418.94754"
+       width="177.64197"
+       height="75.98558"
+       id="rect7" />
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+    <rect
+       x="318.31799"
+       y="418.94754"
+       width="177.64197"
+       height="75.98558"
+       id="rect8" />
+    <rect
+       x="318.31799"
+       y="418.94754"
+       width="177.64197"
+       height="75.98558"
+       id="rect9" />
+    <rect
+       x="318.31799"
+       y="418.94754"
+       width="177.64197"
+       height="75.98558"
+       id="rect10" />
+    <rect
+       x="318.31799"
+       y="418.94754"
+       width="177.64197"
+       height="75.98558"
+       id="rect11" />
+    <rect
+       x="318.31799"
+       y="418.94754"
+       width="177.64197"
+       height="75.98558"
+       id="rect12" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-10.218359,-57.300671)">
+    <circle
+       style="fill:none;stroke:#000000;stroke-width:2.506;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:50.8536;stroke-opacity:1;paint-order:fill markers stroke"
+       id="path1"
+       cx="42.938026"
+       cy="135.25827"
+       r="16.137127" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.506;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:50.8536;stroke-opacity:1;paint-order:fill markers stroke"
+       d="M 43.224449,162.52393 V 93.450155 H 173.47412 V 184.9998 H 43.449519 Z"
+       id="path2"
+       sodipodi:nodetypes="cccccc" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.506;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:50.8536;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect2"
+       width="40.209034"
+       height="16.844326"
+       x="90.356743"
+       y="85.308357" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.506;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:50.8536;stroke-opacity:1;paint-order:fill markers stroke"
+       d="m 157.90933,123.28138 h 31.99008 l -16.32923,26.12678 z"
+       id="path3"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.506;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:50.8536;stroke-opacity:1;paint-order:fill markers stroke"
+       d="m 156.76091,150.62774 h 33.96033"
+       id="path4" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#af0844;stroke-width:2.506;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:50.8536;stroke-opacity:1;marker-end:url(#Triangle);paint-order:fill markers stroke"
+       d="M 17.931057,163.28129 V 116.0085"
+       id="path5" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#af0844;stroke-width:2.506;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:50.8536;stroke-opacity:1;marker-end:url(#Triangle);paint-order:fill markers stroke"
+       d="M 199.91136,163.28129 V 116.0085"
+       id="path6" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#af0844;stroke-width:2.506;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:50.8536;stroke-opacity:1;marker-end:url(#Triangle);paint-order:fill markers stroke"
+       d="M 135.62514,74.338476 H 88.352347"
+       id="path7" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.69146547,0,0,0.69146547,-171.71281,-184.66896)"
+       id="text7"
+       style="font-style:italic;font-size:26.6667px;line-height:1.3;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Italic';text-align:center;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect7);fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:9.4715;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:50.8536;stroke-opacity:1;paint-order:fill markers stroke"><tspan
+         x="399.16438"
+         y="443.63408"
+         id="tspan2"><tspan
+           style="font-style:normal;-inkscape-font-specification:'Segoe UI';fill:#000000;stroke:none"
+           id="tspan1">R</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.69146547,0,0,0.69146547,-209.20502,-164.02108)"
+       id="text8"
+       style="font-style:italic;font-size:26.6667px;line-height:1.3;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Italic';text-align:center;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect8);fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:9.4715;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:50.8536;stroke-opacity:1;paint-order:fill markers stroke"><tspan
+         x="392.73208"
+         y="443.63408"
+         id="tspan4"><tspan
+           style="font-style:normal;-inkscape-font-specification:'Segoe UI';fill:#000000;stroke:none"
+           id="tspan3">Ve</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.69146547,0,0,0.69146547,-137.15275,-165.10781)"
+       id="text9"
+       style="font-style:italic;font-size:26.6667px;line-height:1.3;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Italic';text-align:center;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect9);fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:9.4715;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:50.8536;stroke-opacity:1;paint-order:fill markers stroke"><tspan
+         x="397.79068"
+         y="443.63408"
+         id="tspan6"><tspan
+           style="font-style:normal;-inkscape-font-specification:'Segoe UI';fill:#000000;stroke:none"
+           id="tspan5">D</tspan></tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#0908af;stroke-width:2.506;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:50.8536;stroke-opacity:1;marker-end:url(#Triangle);paint-order:fill markers stroke"
+       d="M 64.692593,93.364811 H 68.96701"
+       id="path9"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.55641808,0,0,0.55641808,-157.65783,-136.89206)"
+       id="text10"
+       style="font-style:italic;font-size:26.6667px;line-height:1.3;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Italic';text-align:center;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect10);fill:#0908af;fill-opacity:1;stroke:#000000;stroke-width:9.4715;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:50.8536;stroke-opacity:1;paint-order:fill markers stroke"><tspan
+         x="403.68912"
+         y="443.63408"
+         id="tspan8"><tspan
+           style="stroke:none"
+           id="tspan7">i</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.55641808,0,0,0.55641808,-118.46766,-179.15597)"
+       id="text11"
+       style="font-style:italic;font-size:26.6667px;line-height:1.3;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Italic';text-align:center;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect11);fill:#af0844;fill-opacity:1;stroke:#000000;stroke-width:9.4715;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:50.8536;stroke-opacity:1;paint-order:fill markers stroke"><tspan
+         x="394.71776"
+         y="443.63408"
+         id="tspan10"><tspan
+           style="font-style:normal;-inkscape-font-specification:'Segoe UI';stroke:none"
+           id="tspan9">Vr</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.55641808,0,0,0.55641808,-7.0777599,-105.25828)"
+       id="text12"
+       style="font-style:italic;font-size:26.6667px;line-height:1.3;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Italic';text-align:center;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect12);fill:#af0844;fill-opacity:1;stroke:#000000;stroke-width:9.4715;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:50.8536;stroke-opacity:1;paint-order:fill markers stroke"><tspan
+         x="391.85317"
+         y="443.63408"
+         id="tspan13"><tspan
+           style="font-style:normal;-inkscape-font-specification:'Segoe UI';stroke:none"
+           id="tspan11">Vd</tspan></tspan></text>
+  </g>
+</svg>

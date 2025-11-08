@@ -1,0 +1,23 @@
+# === Jupyter Notebook ===
+**/.ipynb_checkpoints/
+*.ipynb_save
+*.nbconvert.ipynb
+*.nbconvert.py
+
+# === Python caches ===
+__pycache__/
+*.py[cod]
+*.pyo
+
+# === Virtual environments ===
+.env/
+.venv/
+venv/
+env/
+
+# === Build and generated files ===
+_build/
+
+# === Other temporary or system files ===
+.DS_Store
+*.log
