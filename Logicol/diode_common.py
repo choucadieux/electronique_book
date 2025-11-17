@@ -145,6 +145,7 @@ def SetParameters(device, region):
     SetSiliconParameters(device, region, 300)
 
 
+
 def SetNetDoping(device, region):
     """
     NetDoping
@@ -152,7 +153,6 @@ def SetNetDoping(device, region):
     CreateNodeModel(device, region, "Acceptors", "1.0e18*step(0.5e-5-x)")
     CreateNodeModel(device, region, "Donors", "1.0e18*step(x-0.5e-5)")
     CreateNodeModel(device, region, "NetDoping", "Donors-Acceptors")
-
 
 def InitialSolution(device, region, circuit_contacts=None):
     # Create Potential, Potential@n0, Potential@n1

@@ -1,4 +1,4 @@
-begin_device "MyDevice"
+begin_device "diode1"
 begin_coordinates
 0.000000000000000e+00	0.000000000000000e+00	0.000000000000000e+00
 1.000000000000000e-07	0.000000000000000e+00	0.000000000000000e+00
@@ -467,7 +467,7 @@ begin_coordinates
 1.000000000000000e-05	0.000000000000000e+00	0.000000000000000e+00
 end_coordinates
 
-begin_region "MyRegion" "Si"
+begin_region "bulk" "Si"
 begin_nodes
 0
 1
@@ -1404,7 +1404,7 @@ begin_edges
 end_edges
 
 begin_node_model "Acceptors"
-COMMAND node_model -device "MyDevice" -region "MyRegion" -display_type "scalar" -name "Acceptors" -equation "(1e+18 * step((5.000000000000000e-06 - x)));"
+COMMAND node_model -device "diode1" -region "bulk" -display_type "scalar" -name "Acceptors" -equation "(1e+18 * step((5.000000000000000e-06 - x)));"
 end_node_model
 
 begin_node_model "AtContactNode"
@@ -1416,19 +1416,19 @@ DATAPARENT "SurfaceArea"
 end_node_model
 
 begin_node_model "Donors"
-COMMAND node_model -device "MyDevice" -region "MyRegion" -display_type "scalar" -name "Donors" -equation "(1e+18 * step((x + (-5.000000000000000e-06))));"
+COMMAND node_model -device "diode1" -region "bulk" -display_type "scalar" -name "Donors" -equation "(1e+18 * step((x + (-5.000000000000000e-06))));"
 end_node_model
 
 begin_node_model "ElectronGeneration"
-COMMAND node_model -device "MyDevice" -region "MyRegion" -display_type "scalar" -name "ElectronGeneration" -equation "(-ElectronCharge * USRH);"
+COMMAND node_model -device "diode1" -region "bulk" -display_type "scalar" -name "ElectronGeneration" -equation "(-ElectronCharge * USRH);"
 end_node_model
 
 begin_node_model "ElectronGeneration:Electrons"
-COMMAND node_model -device "MyDevice" -region "MyRegion" -display_type "scalar" -name "ElectronGeneration:Electrons" -equation "(-ElectronCharge * USRH:Electrons);"
+COMMAND node_model -device "diode1" -region "bulk" -display_type "scalar" -name "ElectronGeneration:Electrons" -equation "(-ElectronCharge * USRH:Electrons);"
 end_node_model
 
 begin_node_model "ElectronGeneration:Holes"
-COMMAND node_model -device "MyDevice" -region "MyRegion" -display_type "scalar" -name "ElectronGeneration:Holes" -equation "(-ElectronCharge * USRH:Holes);"
+COMMAND node_model -device "diode1" -region "bulk" -display_type "scalar" -name "ElectronGeneration:Holes" -equation "(-ElectronCharge * USRH:Holes);"
 end_node_model
 
 begin_node_model "Electrons"
@@ -2370,15 +2370,15 @@ DATA
 end_node_model
 
 begin_node_model "HoleGeneration"
-COMMAND node_model -device "MyDevice" -region "MyRegion" -display_type "scalar" -name "HoleGeneration" -equation "(ElectronCharge * USRH);"
+COMMAND node_model -device "diode1" -region "bulk" -display_type "scalar" -name "HoleGeneration" -equation "(ElectronCharge * USRH);"
 end_node_model
 
 begin_node_model "HoleGeneration:Electrons"
-COMMAND node_model -device "MyDevice" -region "MyRegion" -display_type "scalar" -name "HoleGeneration:Electrons" -equation "(ElectronCharge * USRH:Electrons);"
+COMMAND node_model -device "diode1" -region "bulk" -display_type "scalar" -name "HoleGeneration:Electrons" -equation "(ElectronCharge * USRH:Electrons);"
 end_node_model
 
 begin_node_model "HoleGeneration:Holes"
-COMMAND node_model -device "MyDevice" -region "MyRegion" -display_type "scalar" -name "HoleGeneration:Holes" -equation "(ElectronCharge * USRH:Holes);"
+COMMAND node_model -device "diode1" -region "bulk" -display_type "scalar" -name "HoleGeneration:Holes" -equation "(ElectronCharge * USRH:Holes);"
 end_node_model
 
 begin_node_model "Holes"
@@ -3320,39 +3320,39 @@ DATA
 end_node_model
 
 begin_node_model "IntrinsicCharge"
-COMMAND node_model -device "MyDevice" -region "MyRegion" -display_type "scalar" -name "IntrinsicCharge" -equation "kahan3(IntrinsicHoles, (-IntrinsicElectrons), NetDoping);"
+COMMAND node_model -device "diode1" -region "bulk" -display_type "scalar" -name "IntrinsicCharge" -equation "kahan3(IntrinsicHoles, (-IntrinsicElectrons), NetDoping);"
 end_node_model
 
 begin_node_model "IntrinsicCharge:Potential"
-COMMAND node_model -device "MyDevice" -region "MyRegion" -display_type "scalar" -name "IntrinsicCharge:Potential" -equation "(-IntrinsicElectrons:Potential + IntrinsicHoles:Potential + NetDoping:Potential);"
+COMMAND node_model -device "diode1" -region "bulk" -display_type "scalar" -name "IntrinsicCharge:Potential" -equation "(-IntrinsicElectrons:Potential + IntrinsicHoles:Potential + NetDoping:Potential);"
 end_node_model
 
 begin_node_model "IntrinsicElectrons"
-COMMAND node_model -device "MyDevice" -region "MyRegion" -display_type "scalar" -name "IntrinsicElectrons" -equation "(n_i * exp((Potential * pow(V_t,(-1)))));"
+COMMAND node_model -device "diode1" -region "bulk" -display_type "scalar" -name "IntrinsicElectrons" -equation "(n_i * exp((Potential * pow(V_t,(-1)))));"
 end_node_model
 
 begin_node_model "IntrinsicElectrons:Potential"
-COMMAND node_model -device "MyDevice" -region "MyRegion" -display_type "scalar" -name "IntrinsicElectrons:Potential" -equation "(n_i * exp((pow(V_t,(-1)) * Potential)) * pow(V_t,(-1)));"
+COMMAND node_model -device "diode1" -region "bulk" -display_type "scalar" -name "IntrinsicElectrons:Potential" -equation "(n_i * exp((pow(V_t,(-1)) * Potential)) * pow(V_t,(-1)));"
 end_node_model
 
 begin_node_model "IntrinsicHoles"
-COMMAND node_model -device "MyDevice" -region "MyRegion" -display_type "scalar" -name "IntrinsicHoles" -equation "(pow(n_i,2) * pow(IntrinsicElectrons,(-1)));"
+COMMAND node_model -device "diode1" -region "bulk" -display_type "scalar" -name "IntrinsicHoles" -equation "(pow(n_i,2) * pow(IntrinsicElectrons,(-1)));"
 end_node_model
 
 begin_node_model "IntrinsicHoles:Potential"
-COMMAND node_model -device "MyDevice" -region "MyRegion" -display_type "scalar" -name "IntrinsicHoles:Potential" -equation "(-pow(IntrinsicElectrons,(-2)) * pow(n_i,2) * IntrinsicElectrons:Potential);"
+COMMAND node_model -device "diode1" -region "bulk" -display_type "scalar" -name "IntrinsicHoles:Potential" -equation "(-pow(IntrinsicElectrons,(-2)) * pow(n_i,2) * IntrinsicElectrons:Potential);"
 end_node_model
 
 begin_node_model "NCharge"
-COMMAND node_model -device "MyDevice" -region "MyRegion" -display_type "scalar" -name "NCharge" -equation "(-ElectronCharge * Electrons);"
+COMMAND node_model -device "diode1" -region "bulk" -display_type "scalar" -name "NCharge" -equation "(-ElectronCharge * Electrons);"
 end_node_model
 
 begin_node_model "NCharge:Electrons"
-COMMAND node_model -device "MyDevice" -region "MyRegion" -display_type "scalar" -name "NCharge:Electrons" -equation "(-ElectronCharge);"
+COMMAND node_model -device "diode1" -region "bulk" -display_type "scalar" -name "NCharge:Electrons" -equation "(-ElectronCharge);"
 end_node_model
 
 begin_node_model "NetDoping"
-COMMAND node_model -device "MyDevice" -region "MyRegion" -display_type "scalar" -name "NetDoping" -equation "(Donors - Acceptors);"
+COMMAND node_model -device "diode1" -region "bulk" -display_type "scalar" -name "NetDoping" -equation "(Donors - Acceptors);"
 end_node_model
 
 begin_node_model "NodeVolume"
@@ -3360,11 +3360,11 @@ BUILTIN
 end_node_model
 
 begin_node_model "PCharge"
-COMMAND node_model -device "MyDevice" -region "MyRegion" -display_type "scalar" -name "PCharge" -equation "(ElectronCharge * Holes);"
+COMMAND node_model -device "diode1" -region "bulk" -display_type "scalar" -name "PCharge" -equation "(ElectronCharge * Holes);"
 end_node_model
 
 begin_node_model "PCharge:Holes"
-COMMAND node_model -device "MyDevice" -region "MyRegion" -display_type "scalar" -name "PCharge:Holes" -equation "ElectronCharge;"
+COMMAND node_model -device "diode1" -region "bulk" -display_type "scalar" -name "PCharge:Holes" -equation "ElectronCharge;"
 end_node_model
 
 begin_node_model "Potential"
@@ -3837,23 +3837,23 @@ DATA
 end_node_model
 
 begin_node_model "PotentialIntrinsicCharge"
-COMMAND node_model -device "MyDevice" -region "MyRegion" -display_type "scalar" -name "PotentialIntrinsicCharge" -equation "(-ElectronCharge * IntrinsicCharge);"
+COMMAND node_model -device "diode1" -region "bulk" -display_type "scalar" -name "PotentialIntrinsicCharge" -equation "(-ElectronCharge * IntrinsicCharge);"
 end_node_model
 
 begin_node_model "PotentialIntrinsicCharge:Potential"
-COMMAND node_model -device "MyDevice" -region "MyRegion" -display_type "scalar" -name "PotentialIntrinsicCharge:Potential" -equation "(-ElectronCharge * IntrinsicCharge:Potential);"
+COMMAND node_model -device "diode1" -region "bulk" -display_type "scalar" -name "PotentialIntrinsicCharge:Potential" -equation "(-ElectronCharge * IntrinsicCharge:Potential);"
 end_node_model
 
 begin_node_model "PotentialNodeCharge"
-COMMAND node_model -device "MyDevice" -region "MyRegion" -display_type "scalar" -name "PotentialNodeCharge" -equation "(-ElectronCharge * kahan3(Holes, (-Electrons), NetDoping));"
+COMMAND node_model -device "diode1" -region "bulk" -display_type "scalar" -name "PotentialNodeCharge" -equation "(-ElectronCharge * kahan3(Holes, (-Electrons), NetDoping));"
 end_node_model
 
 begin_node_model "PotentialNodeCharge:Electrons"
-COMMAND node_model -device "MyDevice" -region "MyRegion" -display_type "scalar" -name "PotentialNodeCharge:Electrons" -equation "(-ElectronCharge * (-1 + Holes:Electrons + NetDoping:Electrons));"
+COMMAND node_model -device "diode1" -region "bulk" -display_type "scalar" -name "PotentialNodeCharge:Electrons" -equation "(-ElectronCharge * (-1 + Holes:Electrons + NetDoping:Electrons));"
 end_node_model
 
 begin_node_model "PotentialNodeCharge:Holes"
-COMMAND node_model -device "MyDevice" -region "MyRegion" -display_type "scalar" -name "PotentialNodeCharge:Holes" -equation "(-ElectronCharge * (1 - Electrons:Holes + NetDoping:Holes));"
+COMMAND node_model -device "diode1" -region "bulk" -display_type "scalar" -name "PotentialNodeCharge:Holes" -equation "(-ElectronCharge * (1 - Electrons:Holes + NetDoping:Holes));"
 end_node_model
 
 begin_node_model "Potential_prev"
@@ -4330,39 +4330,39 @@ BUILTIN
 end_node_model
 
 begin_node_model "USRH"
-COMMAND node_model -device "MyDevice" -region "MyRegion" -display_type "scalar" -name "USRH" -equation "(((Electrons * Holes) - pow(n_i,2)) * pow(((taup * (Electrons + n1)) + (taun * (Holes + p1))),(-1)));"
+COMMAND node_model -device "diode1" -region "bulk" -display_type "scalar" -name "USRH" -equation "(((Electrons * Holes) - pow(n_i,2)) * pow(((taup * (Electrons + n1)) + (taun * (Holes + p1))),(-1)));"
 end_node_model
 
 begin_node_model "USRH:Electrons"
-COMMAND node_model -device "MyDevice" -region "MyRegion" -display_type "scalar" -name "USRH:Electrons" -equation "((((Electrons * Holes:Electrons) + Holes) * pow(((taun * (p1 + Holes)) + (taup * (n1 + Electrons))),(-1))) - ((-pow(n_i,2) + (Electrons * Holes)) * (taup + (taun * Holes:Electrons)) * pow(((taun * (p1 + Holes)) + (taup * (n1 + Electrons))),(-2))));"
+COMMAND node_model -device "diode1" -region "bulk" -display_type "scalar" -name "USRH:Electrons" -equation "((((Electrons * Holes:Electrons) + Holes) * pow(((taun * (p1 + Holes)) + (taup * (n1 + Electrons))),(-1))) - ((-pow(n_i,2) + (Electrons * Holes)) * (taup + (taun * Holes:Electrons)) * pow(((taun * (p1 + Holes)) + (taup * (n1 + Electrons))),(-2))));"
 end_node_model
 
 begin_node_model "USRH:Holes"
-COMMAND node_model -device "MyDevice" -region "MyRegion" -display_type "scalar" -name "USRH:Holes" -equation "((((Electrons:Holes * Holes) + Electrons) * pow(((taun * (p1 + Holes)) + (taup * (n1 + Electrons))),(-1))) - ((-pow(n_i,2) + (Electrons * Holes)) * (taun + (taup * Electrons:Holes)) * pow(((taun * (p1 + Holes)) + (taup * (n1 + Electrons))),(-2))));"
+COMMAND node_model -device "diode1" -region "bulk" -display_type "scalar" -name "USRH:Holes" -equation "((((Electrons:Holes * Holes) + Electrons) * pow(((taun * (p1 + Holes)) + (taup * (n1 + Electrons))),(-1))) - ((-pow(n_i,2) + (Electrons * Holes)) * (taun + (taup * Electrons:Holes)) * pow(((taun * (p1 + Holes)) + (taup * (n1 + Electrons))),(-2))));"
 end_node_model
 
 begin_node_model "botnodeelectrons"
-COMMAND contact_node_model -device "MyDevice" -contact "bot" -display_type "scalar" -name "botnodeelectrons" -equation "(Electrons - (ifelse ((NetDoping > 0), (1.000000000000000e-10 + (5.000000000000000e-01 * abs((NetDoping + pow((pow(NetDoping,2) + (4 * pow(n_i,2))),5.000000000000000e-01))))), (pow(n_i,2) * pow((1.000000000000000e-10 + (5.000000000000000e-01 * abs((-NetDoping + pow((pow(NetDoping,2) + (4 * pow(n_i,2))),5.000000000000000e-01))))),(-1))))));"
+COMMAND contact_node_model -device "diode1" -contact "bot" -display_type "scalar" -name "botnodeelectrons" -equation "(Electrons - (ifelse ((NetDoping > 0), (1.000000000000000e-10 + (5.000000000000000e-01 * abs((NetDoping + pow((pow(NetDoping,2) + (4 * pow(n_i,2))),5.000000000000000e-01))))), (pow(n_i,2) * pow((1.000000000000000e-10 + (5.000000000000000e-01 * abs((-NetDoping + pow((pow(NetDoping,2) + (4 * pow(n_i,2))),5.000000000000000e-01))))),(-1))))));"
 end_node_model
 
 begin_node_model "botnodeelectrons:Electrons"
-COMMAND contact_node_model -device "MyDevice" -contact "bot" -display_type "scalar" -name "botnodeelectrons:Electrons" -equation "1;"
+COMMAND contact_node_model -device "diode1" -contact "bot" -display_type "scalar" -name "botnodeelectrons:Electrons" -equation "1;"
 end_node_model
 
 begin_node_model "botnodeholes"
-COMMAND contact_node_model -device "MyDevice" -contact "bot" -display_type "scalar" -name "botnodeholes" -equation "(Holes - (ifelse ((NetDoping < 0), (1.000000000000000e-10 + (5.000000000000000e-01 * abs((-NetDoping + pow((pow(NetDoping,2) + (4 * pow(n_i,2))),5.000000000000000e-01))))), (pow(n_i,2) * pow((1.000000000000000e-10 + (5.000000000000000e-01 * abs((NetDoping + pow((pow(NetDoping,2) + (4 * pow(n_i,2))),5.000000000000000e-01))))),(-1))))));"
+COMMAND contact_node_model -device "diode1" -contact "bot" -display_type "scalar" -name "botnodeholes" -equation "(Holes - (ifelse ((NetDoping < 0), (1.000000000000000e-10 + (5.000000000000000e-01 * abs((-NetDoping + pow((pow(NetDoping,2) + (4 * pow(n_i,2))),5.000000000000000e-01))))), (pow(n_i,2) * pow((1.000000000000000e-10 + (5.000000000000000e-01 * abs((NetDoping + pow((pow(NetDoping,2) + (4 * pow(n_i,2))),5.000000000000000e-01))))),(-1))))));"
 end_node_model
 
 begin_node_model "botnodeholes:Holes"
-COMMAND contact_node_model -device "MyDevice" -contact "bot" -display_type "scalar" -name "botnodeholes:Holes" -equation "1;"
+COMMAND contact_node_model -device "diode1" -contact "bot" -display_type "scalar" -name "botnodeholes:Holes" -equation "1;"
 end_node_model
 
 begin_node_model "botnodemodel"
-COMMAND contact_node_model -device "MyDevice" -contact "bot" -display_type "scalar" -name "botnodemodel" -equation "(-bot_bias + Potential + (ifelse ((NetDoping > 0), (-V_t * log(((1.000000000000000e-10 + (5.000000000000000e-01 * abs((NetDoping + pow((pow(NetDoping,2) + (4 * pow(n_i,2))),5.000000000000000e-01))))) * pow(n_i,(-1))))), (V_t * log(((1.000000000000000e-10 + (5.000000000000000e-01 * abs((-NetDoping + pow((pow(NetDoping,2) + (4 * pow(n_i,2))),5.000000000000000e-01))))) * pow(n_i,(-1))))))));"
+COMMAND contact_node_model -device "diode1" -contact "bot" -display_type "scalar" -name "botnodemodel" -equation "(-bot_bias + Potential + (ifelse ((NetDoping > 0), (-V_t * log(((1.000000000000000e-10 + (5.000000000000000e-01 * abs((NetDoping + pow((pow(NetDoping,2) + (4 * pow(n_i,2))),5.000000000000000e-01))))) * pow(n_i,(-1))))), (V_t * log(((1.000000000000000e-10 + (5.000000000000000e-01 * abs((-NetDoping + pow((pow(NetDoping,2) + (4 * pow(n_i,2))),5.000000000000000e-01))))) * pow(n_i,(-1))))))));"
 end_node_model
 
 begin_node_model "botnodemodel:Potential"
-COMMAND contact_node_model -device "MyDevice" -contact "bot" -display_type "scalar" -name "botnodemodel:Potential" -equation "1;"
+COMMAND contact_node_model -device "diode1" -contact "bot" -display_type "scalar" -name "botnodemodel:Potential" -equation "1;"
 end_node_model
 
 begin_node_model "coordinate_index"
@@ -4374,27 +4374,27 @@ DATAPARENT "x"
 end_node_model
 
 begin_node_model "topnodeelectrons"
-COMMAND contact_node_model -device "MyDevice" -contact "top" -display_type "scalar" -name "topnodeelectrons" -equation "(Electrons - (ifelse ((NetDoping > 0), (1.000000000000000e-10 + (5.000000000000000e-01 * abs((NetDoping + pow((pow(NetDoping,2) + (4 * pow(n_i,2))),5.000000000000000e-01))))), (pow(n_i,2) * pow((1.000000000000000e-10 + (5.000000000000000e-01 * abs((-NetDoping + pow((pow(NetDoping,2) + (4 * pow(n_i,2))),5.000000000000000e-01))))),(-1))))));"
+COMMAND contact_node_model -device "diode1" -contact "top" -display_type "scalar" -name "topnodeelectrons" -equation "(Electrons - (ifelse ((NetDoping > 0), (1.000000000000000e-10 + (5.000000000000000e-01 * abs((NetDoping + pow((pow(NetDoping,2) + (4 * pow(n_i,2))),5.000000000000000e-01))))), (pow(n_i,2) * pow((1.000000000000000e-10 + (5.000000000000000e-01 * abs((-NetDoping + pow((pow(NetDoping,2) + (4 * pow(n_i,2))),5.000000000000000e-01))))),(-1))))));"
 end_node_model
 
 begin_node_model "topnodeelectrons:Electrons"
-COMMAND contact_node_model -device "MyDevice" -contact "top" -display_type "scalar" -name "topnodeelectrons:Electrons" -equation "1;"
+COMMAND contact_node_model -device "diode1" -contact "top" -display_type "scalar" -name "topnodeelectrons:Electrons" -equation "1;"
 end_node_model
 
 begin_node_model "topnodeholes"
-COMMAND contact_node_model -device "MyDevice" -contact "top" -display_type "scalar" -name "topnodeholes" -equation "(Holes - (ifelse ((NetDoping < 0), (1.000000000000000e-10 + (5.000000000000000e-01 * abs((-NetDoping + pow((pow(NetDoping,2) + (4 * pow(n_i,2))),5.000000000000000e-01))))), (pow(n_i,2) * pow((1.000000000000000e-10 + (5.000000000000000e-01 * abs((NetDoping + pow((pow(NetDoping,2) + (4 * pow(n_i,2))),5.000000000000000e-01))))),(-1))))));"
+COMMAND contact_node_model -device "diode1" -contact "top" -display_type "scalar" -name "topnodeholes" -equation "(Holes - (ifelse ((NetDoping < 0), (1.000000000000000e-10 + (5.000000000000000e-01 * abs((-NetDoping + pow((pow(NetDoping,2) + (4 * pow(n_i,2))),5.000000000000000e-01))))), (pow(n_i,2) * pow((1.000000000000000e-10 + (5.000000000000000e-01 * abs((NetDoping + pow((pow(NetDoping,2) + (4 * pow(n_i,2))),5.000000000000000e-01))))),(-1))))));"
 end_node_model
 
 begin_node_model "topnodeholes:Holes"
-COMMAND contact_node_model -device "MyDevice" -contact "top" -display_type "scalar" -name "topnodeholes:Holes" -equation "1;"
+COMMAND contact_node_model -device "diode1" -contact "top" -display_type "scalar" -name "topnodeholes:Holes" -equation "1;"
 end_node_model
 
 begin_node_model "topnodemodel"
-COMMAND contact_node_model -device "MyDevice" -contact "top" -display_type "scalar" -name "topnodemodel" -equation "(-top_bias + Potential + (ifelse ((NetDoping > 0), (-V_t * log(((1.000000000000000e-10 + (5.000000000000000e-01 * abs((NetDoping + pow((pow(NetDoping,2) + (4 * pow(n_i,2))),5.000000000000000e-01))))) * pow(n_i,(-1))))), (V_t * log(((1.000000000000000e-10 + (5.000000000000000e-01 * abs((-NetDoping + pow((pow(NetDoping,2) + (4 * pow(n_i,2))),5.000000000000000e-01))))) * pow(n_i,(-1))))))));"
+COMMAND contact_node_model -device "diode1" -contact "top" -display_type "scalar" -name "topnodemodel" -equation "(-top_bias + Potential + (ifelse ((NetDoping > 0), (-V_t * log(((1.000000000000000e-10 + (5.000000000000000e-01 * abs((NetDoping + pow((pow(NetDoping,2) + (4 * pow(n_i,2))),5.000000000000000e-01))))) * pow(n_i,(-1))))), (V_t * log(((1.000000000000000e-10 + (5.000000000000000e-01 * abs((-NetDoping + pow((pow(NetDoping,2) + (4 * pow(n_i,2))),5.000000000000000e-01))))) * pow(n_i,(-1))))))));"
 end_node_model
 
 begin_node_model "topnodemodel:Potential"
-COMMAND contact_node_model -device "MyDevice" -contact "top" -display_type "scalar" -name "topnodemodel:Potential" -equation "1;"
+COMMAND contact_node_model -device "diode1" -contact "top" -display_type "scalar" -name "topnodemodel:Potential" -equation "1;"
 end_node_model
 
 begin_node_model "x"
@@ -4410,15 +4410,15 @@ DATAPARENT "x"
 end_node_model
 
 begin_edge_model "Bern01"
-COMMAND edge_model -device "MyDevice" -region "MyRegion" -name "Bern01" -equation "B(vdiff);" -display_type "scalar"
+COMMAND edge_model -device "diode1" -region "bulk" -name "Bern01" -equation "B(vdiff);" -display_type "scalar"
 end_edge_model
 
 begin_edge_model "Bern01:Potential@n0"
-COMMAND edge_model -device "MyDevice" -region "MyRegion" -name "Bern01:Potential@n0" -equation "(dBdx(vdiff) * vdiff:Potential@n0);" -display_type "scalar"
+COMMAND edge_model -device "diode1" -region "bulk" -name "Bern01:Potential@n0" -equation "(dBdx(vdiff) * vdiff:Potential@n0);" -display_type "scalar"
 end_edge_model
 
 begin_edge_model "Bern01:Potential@n1"
-COMMAND edge_model -device "MyDevice" -region "MyRegion" -name "Bern01:Potential@n1" -equation "(-Bern01:Potential@n0);" -display_type "scalar"
+COMMAND edge_model -device "diode1" -region "bulk" -name "Bern01:Potential@n1" -equation "(-Bern01:Potential@n0);" -display_type "scalar"
 end_edge_model
 
 begin_edge_model "EdgeCouple"
@@ -4438,47 +4438,47 @@ BUILTIN
 end_edge_model
 
 begin_edge_model "ElectricField"
-COMMAND edge_model -device "MyDevice" -region "MyRegion" -name "ElectricField" -equation "((Potential@n0 - Potential@n1) * EdgeInverseLength);" -display_type "scalar"
+COMMAND edge_model -device "diode1" -region "bulk" -name "ElectricField" -equation "((Potential@n0 - Potential@n1) * EdgeInverseLength);" -display_type "scalar"
 end_edge_model
 
 begin_edge_model "ElectricField:Potential@n0"
-COMMAND edge_model -device "MyDevice" -region "MyRegion" -name "ElectricField:Potential@n0" -equation "(((-Potential@n1 + Potential@n0) * EdgeInverseLength:Potential@n0) + ((1 - Potential@n1:Potential@n0) * EdgeInverseLength));" -display_type "scalar"
+COMMAND edge_model -device "diode1" -region "bulk" -name "ElectricField:Potential@n0" -equation "(((-Potential@n1 + Potential@n0) * EdgeInverseLength:Potential@n0) + ((1 - Potential@n1:Potential@n0) * EdgeInverseLength));" -display_type "scalar"
 end_edge_model
 
 begin_edge_model "ElectricField:Potential@n1"
-COMMAND edge_model -device "MyDevice" -region "MyRegion" -name "ElectricField:Potential@n1" -equation "(((-1 + Potential@n0:Potential@n1) * EdgeInverseLength) + ((-Potential@n1 + Potential@n0) * EdgeInverseLength:Potential@n1));" -display_type "scalar"
+COMMAND edge_model -device "diode1" -region "bulk" -name "ElectricField:Potential@n1" -equation "(((-1 + Potential@n0:Potential@n1) * EdgeInverseLength) + ((-Potential@n1 + Potential@n0) * EdgeInverseLength:Potential@n1));" -display_type "scalar"
 end_edge_model
 
 begin_edge_model "ElectronCurrent"
-COMMAND edge_model -device "MyDevice" -region "MyRegion" -name "ElectronCurrent" -equation "(ElectronCharge * V_t * mu_n * EdgeInverseLength * kahan3((Electrons@n1 * Bern01), (Electrons@n1 * vdiff), (-Bern01 * Electrons@n0)));" -display_type "scalar"
+COMMAND edge_model -device "diode1" -region "bulk" -name "ElectronCurrent" -equation "(ElectronCharge * V_t * mu_n * EdgeInverseLength * kahan3((Electrons@n1 * Bern01), (Electrons@n1 * vdiff), (-Bern01 * Electrons@n0)));" -display_type "scalar"
 end_edge_model
 
 begin_edge_model "ElectronCurrent:Electrons@n0"
-COMMAND edge_model -device "MyDevice" -region "MyRegion" -name "ElectronCurrent:Electrons@n0" -equation "((ElectronCharge * V_t * mu_n * (-Bern01 - (Bern01:Electrons@n0 * Electrons@n0) + (Bern01 * Electrons@n1:Electrons@n0) + (Bern01:Electrons@n0 * Electrons@n1) + (Electrons@n1 * vdiff:Electrons@n0) + (Electrons@n1:Electrons@n0 * vdiff)) * EdgeInverseLength) + (ElectronCharge * V_t * mu_n * EdgeInverseLength:Electrons@n0 * kahan3((Bern01 * Electrons@n1), (Electrons@n1 * vdiff), (-Bern01 * Electrons@n0))));" -display_type "scalar"
+COMMAND edge_model -device "diode1" -region "bulk" -name "ElectronCurrent:Electrons@n0" -equation "((ElectronCharge * V_t * mu_n * (-Bern01 - (Bern01:Electrons@n0 * Electrons@n0) + (Bern01 * Electrons@n1:Electrons@n0) + (Bern01:Electrons@n0 * Electrons@n1) + (Electrons@n1 * vdiff:Electrons@n0) + (Electrons@n1:Electrons@n0 * vdiff)) * EdgeInverseLength) + (ElectronCharge * V_t * mu_n * EdgeInverseLength:Electrons@n0 * kahan3((Bern01 * Electrons@n1), (Electrons@n1 * vdiff), (-Bern01 * Electrons@n0))));" -display_type "scalar"
 end_edge_model
 
 begin_edge_model "ElectronCurrent:Electrons@n1"
-COMMAND edge_model -device "MyDevice" -region "MyRegion" -name "ElectronCurrent:Electrons@n1" -equation "((ElectronCharge * V_t * mu_n * (-(Bern01 * Electrons@n0:Electrons@n1) - (Bern01:Electrons@n1 * Electrons@n0) + (Bern01:Electrons@n1 * Electrons@n1) + (Electrons@n1 * vdiff:Electrons@n1) + Bern01 + vdiff) * EdgeInverseLength) + (ElectronCharge * V_t * mu_n * EdgeInverseLength:Electrons@n1 * kahan3((Bern01 * Electrons@n1), (Electrons@n1 * vdiff), (-Bern01 * Electrons@n0))));" -display_type "scalar"
+COMMAND edge_model -device "diode1" -region "bulk" -name "ElectronCurrent:Electrons@n1" -equation "((ElectronCharge * V_t * mu_n * (-(Bern01 * Electrons@n0:Electrons@n1) - (Bern01:Electrons@n1 * Electrons@n0) + (Bern01:Electrons@n1 * Electrons@n1) + (Electrons@n1 * vdiff:Electrons@n1) + Bern01 + vdiff) * EdgeInverseLength) + (ElectronCharge * V_t * mu_n * EdgeInverseLength:Electrons@n1 * kahan3((Bern01 * Electrons@n1), (Electrons@n1 * vdiff), (-Bern01 * Electrons@n0))));" -display_type "scalar"
 end_edge_model
 
 begin_edge_model "ElectronCurrent:Holes@n0"
-COMMAND edge_model -device "MyDevice" -region "MyRegion" -name "ElectronCurrent:Holes@n0" -equation "((ElectronCharge * V_t * mu_n * (-(Bern01 * Electrons@n0:Holes@n0) - (Bern01:Holes@n0 * Electrons@n0) + (Bern01 * Electrons@n1:Holes@n0) + (Bern01:Holes@n0 * Electrons@n1) + (Electrons@n1 * vdiff:Holes@n0) + (Electrons@n1:Holes@n0 * vdiff)) * EdgeInverseLength) + (ElectronCharge * V_t * mu_n * EdgeInverseLength:Holes@n0 * kahan3((Bern01 * Electrons@n1), (Electrons@n1 * vdiff), (-Bern01 * Electrons@n0))));" -display_type "scalar"
+COMMAND edge_model -device "diode1" -region "bulk" -name "ElectronCurrent:Holes@n0" -equation "((ElectronCharge * V_t * mu_n * (-(Bern01 * Electrons@n0:Holes@n0) - (Bern01:Holes@n0 * Electrons@n0) + (Bern01 * Electrons@n1:Holes@n0) + (Bern01:Holes@n0 * Electrons@n1) + (Electrons@n1 * vdiff:Holes@n0) + (Electrons@n1:Holes@n0 * vdiff)) * EdgeInverseLength) + (ElectronCharge * V_t * mu_n * EdgeInverseLength:Holes@n0 * kahan3((Bern01 * Electrons@n1), (Electrons@n1 * vdiff), (-Bern01 * Electrons@n0))));" -display_type "scalar"
 end_edge_model
 
 begin_edge_model "ElectronCurrent:Holes@n1"
-COMMAND edge_model -device "MyDevice" -region "MyRegion" -name "ElectronCurrent:Holes@n1" -equation "((ElectronCharge * V_t * mu_n * (-(Bern01 * Electrons@n0:Holes@n1) - (Bern01:Holes@n1 * Electrons@n0) + (Bern01 * Electrons@n1:Holes@n1) + (Bern01:Holes@n1 * Electrons@n1) + (Electrons@n1 * vdiff:Holes@n1) + (Electrons@n1:Holes@n1 * vdiff)) * EdgeInverseLength) + (ElectronCharge * V_t * mu_n * EdgeInverseLength:Holes@n1 * kahan3((Bern01 * Electrons@n1), (Electrons@n1 * vdiff), (-Bern01 * Electrons@n0))));" -display_type "scalar"
+COMMAND edge_model -device "diode1" -region "bulk" -name "ElectronCurrent:Holes@n1" -equation "((ElectronCharge * V_t * mu_n * (-(Bern01 * Electrons@n0:Holes@n1) - (Bern01:Holes@n1 * Electrons@n0) + (Bern01 * Electrons@n1:Holes@n1) + (Bern01:Holes@n1 * Electrons@n1) + (Electrons@n1 * vdiff:Holes@n1) + (Electrons@n1:Holes@n1 * vdiff)) * EdgeInverseLength) + (ElectronCharge * V_t * mu_n * EdgeInverseLength:Holes@n1 * kahan3((Bern01 * Electrons@n1), (Electrons@n1 * vdiff), (-Bern01 * Electrons@n0))));" -display_type "scalar"
 end_edge_model
 
 begin_edge_model "ElectronCurrent:Potential@n0"
-COMMAND edge_model -device "MyDevice" -region "MyRegion" -name "ElectronCurrent:Potential@n0" -equation "((ElectronCharge * V_t * mu_n * (-(Bern01 * Electrons@n0:Potential@n0) - (Bern01:Potential@n0 * Electrons@n0) + (Bern01 * Electrons@n1:Potential@n0) + (Bern01:Potential@n0 * Electrons@n1) + (Electrons@n1 * vdiff:Potential@n0) + (Electrons@n1:Potential@n0 * vdiff)) * EdgeInverseLength) + (ElectronCharge * V_t * mu_n * EdgeInverseLength:Potential@n0 * kahan3((Bern01 * Electrons@n1), (Electrons@n1 * vdiff), (-Bern01 * Electrons@n0))));" -display_type "scalar"
+COMMAND edge_model -device "diode1" -region "bulk" -name "ElectronCurrent:Potential@n0" -equation "((ElectronCharge * V_t * mu_n * (-(Bern01 * Electrons@n0:Potential@n0) - (Bern01:Potential@n0 * Electrons@n0) + (Bern01 * Electrons@n1:Potential@n0) + (Bern01:Potential@n0 * Electrons@n1) + (Electrons@n1 * vdiff:Potential@n0) + (Electrons@n1:Potential@n0 * vdiff)) * EdgeInverseLength) + (ElectronCharge * V_t * mu_n * EdgeInverseLength:Potential@n0 * kahan3((Bern01 * Electrons@n1), (Electrons@n1 * vdiff), (-Bern01 * Electrons@n0))));" -display_type "scalar"
 end_edge_model
 
 begin_edge_model "ElectronCurrent:Potential@n1"
-COMMAND edge_model -device "MyDevice" -region "MyRegion" -name "ElectronCurrent:Potential@n1" -equation "((ElectronCharge * V_t * mu_n * (-(Bern01 * Electrons@n0:Potential@n1) - (Bern01:Potential@n1 * Electrons@n0) + (Bern01 * Electrons@n1:Potential@n1) + (Bern01:Potential@n1 * Electrons@n1) + (Electrons@n1 * vdiff:Potential@n1) + (Electrons@n1:Potential@n1 * vdiff)) * EdgeInverseLength) + (ElectronCharge * V_t * mu_n * EdgeInverseLength:Potential@n1 * kahan3((Bern01 * Electrons@n1), (Electrons@n1 * vdiff), (-Bern01 * Electrons@n0))));" -display_type "scalar"
+COMMAND edge_model -device "diode1" -region "bulk" -name "ElectronCurrent:Potential@n1" -equation "((ElectronCharge * V_t * mu_n * (-(Bern01 * Electrons@n0:Potential@n1) - (Bern01:Potential@n1 * Electrons@n0) + (Bern01 * Electrons@n1:Potential@n1) + (Bern01:Potential@n1 * Electrons@n1) + (Electrons@n1 * vdiff:Potential@n1) + (Electrons@n1:Potential@n1 * vdiff)) * EdgeInverseLength) + (ElectronCharge * V_t * mu_n * EdgeInverseLength:Potential@n1 * kahan3((Bern01 * Electrons@n1), (Electrons@n1 * vdiff), (-Bern01 * Electrons@n0))));" -display_type "scalar"
 end_edge_model
 
 begin_edge_model "Electrons@n0"
-COMMAND edge_from_node_model -device "MyDevice" -region "MyRegion" -node_model "Electrons"
+COMMAND edge_from_node_model -device "diode1" -region "bulk" -node_model "Electrons"
 end_edge_model
 
 begin_edge_model "Electrons@n1"
@@ -4486,35 +4486,35 @@ DATAPARENT "Electrons@n0"
 end_edge_model
 
 begin_edge_model "HoleCurrent"
-COMMAND edge_model -device "MyDevice" -region "MyRegion" -name "HoleCurrent" -equation "(-ElectronCharge * V_t * mu_p * EdgeInverseLength * kahan3((Holes@n1 * Bern01), (-Bern01 * Holes@n0), (-Holes@n0 * vdiff)));" -display_type "scalar"
+COMMAND edge_model -device "diode1" -region "bulk" -name "HoleCurrent" -equation "(-ElectronCharge * V_t * mu_p * EdgeInverseLength * kahan3((Holes@n1 * Bern01), (-Bern01 * Holes@n0), (-Holes@n0 * vdiff)));" -display_type "scalar"
 end_edge_model
 
 begin_edge_model "HoleCurrent:Electrons@n0"
-COMMAND edge_model -device "MyDevice" -region "MyRegion" -name "HoleCurrent:Electrons@n0" -equation "(-(ElectronCharge * V_t * mu_p * (-(Bern01 * Holes@n0:Electrons@n0) - (Bern01:Electrons@n0 * Holes@n0) - (Holes@n0 * vdiff:Electrons@n0) - (Holes@n0:Electrons@n0 * vdiff) + (Bern01 * Holes@n1:Electrons@n0) + (Bern01:Electrons@n0 * Holes@n1)) * EdgeInverseLength) - (ElectronCharge * V_t * mu_p * EdgeInverseLength:Electrons@n0 * kahan3((Bern01 * Holes@n1), (-Bern01 * Holes@n0), (-Holes@n0 * vdiff))));" -display_type "scalar"
+COMMAND edge_model -device "diode1" -region "bulk" -name "HoleCurrent:Electrons@n0" -equation "(-(ElectronCharge * V_t * mu_p * (-(Bern01 * Holes@n0:Electrons@n0) - (Bern01:Electrons@n0 * Holes@n0) - (Holes@n0 * vdiff:Electrons@n0) - (Holes@n0:Electrons@n0 * vdiff) + (Bern01 * Holes@n1:Electrons@n0) + (Bern01:Electrons@n0 * Holes@n1)) * EdgeInverseLength) - (ElectronCharge * V_t * mu_p * EdgeInverseLength:Electrons@n0 * kahan3((Bern01 * Holes@n1), (-Bern01 * Holes@n0), (-Holes@n0 * vdiff))));" -display_type "scalar"
 end_edge_model
 
 begin_edge_model "HoleCurrent:Electrons@n1"
-COMMAND edge_model -device "MyDevice" -region "MyRegion" -name "HoleCurrent:Electrons@n1" -equation "(-(ElectronCharge * V_t * mu_p * (-(Bern01 * Holes@n0:Electrons@n1) - (Bern01:Electrons@n1 * Holes@n0) - (Holes@n0 * vdiff:Electrons@n1) - (Holes@n0:Electrons@n1 * vdiff) + (Bern01 * Holes@n1:Electrons@n1) + (Bern01:Electrons@n1 * Holes@n1)) * EdgeInverseLength) - (ElectronCharge * V_t * mu_p * EdgeInverseLength:Electrons@n1 * kahan3((Bern01 * Holes@n1), (-Bern01 * Holes@n0), (-Holes@n0 * vdiff))));" -display_type "scalar"
+COMMAND edge_model -device "diode1" -region "bulk" -name "HoleCurrent:Electrons@n1" -equation "(-(ElectronCharge * V_t * mu_p * (-(Bern01 * Holes@n0:Electrons@n1) - (Bern01:Electrons@n1 * Holes@n0) - (Holes@n0 * vdiff:Electrons@n1) - (Holes@n0:Electrons@n1 * vdiff) + (Bern01 * Holes@n1:Electrons@n1) + (Bern01:Electrons@n1 * Holes@n1)) * EdgeInverseLength) - (ElectronCharge * V_t * mu_p * EdgeInverseLength:Electrons@n1 * kahan3((Bern01 * Holes@n1), (-Bern01 * Holes@n0), (-Holes@n0 * vdiff))));" -display_type "scalar"
 end_edge_model
 
 begin_edge_model "HoleCurrent:Holes@n0"
-COMMAND edge_model -device "MyDevice" -region "MyRegion" -name "HoleCurrent:Holes@n0" -equation "(-(ElectronCharge * V_t * mu_p * (-Bern01 - (Bern01:Holes@n0 * Holes@n0) - (Holes@n0 * vdiff:Holes@n0) - vdiff + (Bern01 * Holes@n1:Holes@n0) + (Bern01:Holes@n0 * Holes@n1)) * EdgeInverseLength) - (ElectronCharge * V_t * mu_p * EdgeInverseLength:Holes@n0 * kahan3((Bern01 * Holes@n1), (-Bern01 * Holes@n0), (-Holes@n0 * vdiff))));" -display_type "scalar"
+COMMAND edge_model -device "diode1" -region "bulk" -name "HoleCurrent:Holes@n0" -equation "(-(ElectronCharge * V_t * mu_p * (-Bern01 - (Bern01:Holes@n0 * Holes@n0) - (Holes@n0 * vdiff:Holes@n0) - vdiff + (Bern01 * Holes@n1:Holes@n0) + (Bern01:Holes@n0 * Holes@n1)) * EdgeInverseLength) - (ElectronCharge * V_t * mu_p * EdgeInverseLength:Holes@n0 * kahan3((Bern01 * Holes@n1), (-Bern01 * Holes@n0), (-Holes@n0 * vdiff))));" -display_type "scalar"
 end_edge_model
 
 begin_edge_model "HoleCurrent:Holes@n1"
-COMMAND edge_model -device "MyDevice" -region "MyRegion" -name "HoleCurrent:Holes@n1" -equation "(-(ElectronCharge * V_t * mu_p * (-(Bern01 * Holes@n0:Holes@n1) - (Bern01:Holes@n1 * Holes@n0) - (Holes@n0 * vdiff:Holes@n1) - (Holes@n0:Holes@n1 * vdiff) + (Bern01:Holes@n1 * Holes@n1) + Bern01) * EdgeInverseLength) - (ElectronCharge * V_t * mu_p * EdgeInverseLength:Holes@n1 * kahan3((Bern01 * Holes@n1), (-Bern01 * Holes@n0), (-Holes@n0 * vdiff))));" -display_type "scalar"
+COMMAND edge_model -device "diode1" -region "bulk" -name "HoleCurrent:Holes@n1" -equation "(-(ElectronCharge * V_t * mu_p * (-(Bern01 * Holes@n0:Holes@n1) - (Bern01:Holes@n1 * Holes@n0) - (Holes@n0 * vdiff:Holes@n1) - (Holes@n0:Holes@n1 * vdiff) + (Bern01:Holes@n1 * Holes@n1) + Bern01) * EdgeInverseLength) - (ElectronCharge * V_t * mu_p * EdgeInverseLength:Holes@n1 * kahan3((Bern01 * Holes@n1), (-Bern01 * Holes@n0), (-Holes@n0 * vdiff))));" -display_type "scalar"
 end_edge_model
 
 begin_edge_model "HoleCurrent:Potential@n0"
-COMMAND edge_model -device "MyDevice" -region "MyRegion" -name "HoleCurrent:Potential@n0" -equation "(-(ElectronCharge * V_t * mu_p * (-(Bern01 * Holes@n0:Potential@n0) - (Bern01:Potential@n0 * Holes@n0) - (Holes@n0 * vdiff:Potential@n0) - (Holes@n0:Potential@n0 * vdiff) + (Bern01 * Holes@n1:Potential@n0) + (Bern01:Potential@n0 * Holes@n1)) * EdgeInverseLength) - (ElectronCharge * V_t * mu_p * EdgeInverseLength:Potential@n0 * kahan3((Bern01 * Holes@n1), (-Bern01 * Holes@n0), (-Holes@n0 * vdiff))));" -display_type "scalar"
+COMMAND edge_model -device "diode1" -region "bulk" -name "HoleCurrent:Potential@n0" -equation "(-(ElectronCharge * V_t * mu_p * (-(Bern01 * Holes@n0:Potential@n0) - (Bern01:Potential@n0 * Holes@n0) - (Holes@n0 * vdiff:Potential@n0) - (Holes@n0:Potential@n0 * vdiff) + (Bern01 * Holes@n1:Potential@n0) + (Bern01:Potential@n0 * Holes@n1)) * EdgeInverseLength) - (ElectronCharge * V_t * mu_p * EdgeInverseLength:Potential@n0 * kahan3((Bern01 * Holes@n1), (-Bern01 * Holes@n0), (-Holes@n0 * vdiff))));" -display_type "scalar"
 end_edge_model
 
 begin_edge_model "HoleCurrent:Potential@n1"
-COMMAND edge_model -device "MyDevice" -region "MyRegion" -name "HoleCurrent:Potential@n1" -equation "(-(ElectronCharge * V_t * mu_p * (-(Bern01 * Holes@n0:Potential@n1) - (Bern01:Potential@n1 * Holes@n0) - (Holes@n0 * vdiff:Potential@n1) - (Holes@n0:Potential@n1 * vdiff) + (Bern01 * Holes@n1:Potential@n1) + (Bern01:Potential@n1 * Holes@n1)) * EdgeInverseLength) - (ElectronCharge * V_t * mu_p * EdgeInverseLength:Potential@n1 * kahan3((Bern01 * Holes@n1), (-Bern01 * Holes@n0), (-Holes@n0 * vdiff))));" -display_type "scalar"
+COMMAND edge_model -device "diode1" -region "bulk" -name "HoleCurrent:Potential@n1" -equation "(-(ElectronCharge * V_t * mu_p * (-(Bern01 * Holes@n0:Potential@n1) - (Bern01:Potential@n1 * Holes@n0) - (Holes@n0 * vdiff:Potential@n1) - (Holes@n0:Potential@n1 * vdiff) + (Bern01 * Holes@n1:Potential@n1) + (Bern01:Potential@n1 * Holes@n1)) * EdgeInverseLength) - (ElectronCharge * V_t * mu_p * EdgeInverseLength:Potential@n1 * kahan3((Bern01 * Holes@n1), (-Bern01 * Holes@n0), (-Holes@n0 * vdiff))));" -display_type "scalar"
 end_edge_model
 
 begin_edge_model "Holes@n0"
-COMMAND edge_from_node_model -device "MyDevice" -region "MyRegion" -node_model "Holes"
+COMMAND edge_from_node_model -device "diode1" -region "bulk" -node_model "Holes"
 end_edge_model
 
 begin_edge_model "Holes@n1"
@@ -4522,7 +4522,7 @@ DATAPARENT "Holes@n0"
 end_edge_model
 
 begin_edge_model "Potential@n0"
-COMMAND edge_from_node_model -device "MyDevice" -region "MyRegion" -node_model "Potential"
+COMMAND edge_from_node_model -device "diode1" -region "bulk" -node_model "Potential"
 end_edge_model
 
 begin_edge_model "Potential@n1"
@@ -4530,27 +4530,27 @@ DATAPARENT "Potential@n0"
 end_edge_model
 
 begin_edge_model "PotentialEdgeFlux"
-COMMAND edge_model -device "MyDevice" -region "MyRegion" -name "PotentialEdgeFlux" -equation "(Permittivity * ElectricField);" -display_type "scalar"
+COMMAND edge_model -device "diode1" -region "bulk" -name "PotentialEdgeFlux" -equation "(Permittivity * ElectricField);" -display_type "scalar"
 end_edge_model
 
 begin_edge_model "PotentialEdgeFlux:Potential@n0"
-COMMAND edge_model -device "MyDevice" -region "MyRegion" -name "PotentialEdgeFlux:Potential@n0" -equation "(Permittivity * ElectricField:Potential@n0);" -display_type "scalar"
+COMMAND edge_model -device "diode1" -region "bulk" -name "PotentialEdgeFlux:Potential@n0" -equation "(Permittivity * ElectricField:Potential@n0);" -display_type "scalar"
 end_edge_model
 
 begin_edge_model "PotentialEdgeFlux:Potential@n1"
-COMMAND edge_model -device "MyDevice" -region "MyRegion" -name "PotentialEdgeFlux:Potential@n1" -equation "(Permittivity * ElectricField:Potential@n1);" -display_type "scalar"
+COMMAND edge_model -device "diode1" -region "bulk" -name "PotentialEdgeFlux:Potential@n1" -equation "(Permittivity * ElectricField:Potential@n1);" -display_type "scalar"
 end_edge_model
 
 begin_edge_model "contactcharge_edge"
-COMMAND edge_model -device "MyDevice" -region "MyRegion" -name "contactcharge_edge" -equation "(Permittivity * ElectricField);" -display_type "scalar"
+COMMAND edge_model -device "diode1" -region "bulk" -name "contactcharge_edge" -equation "(Permittivity * ElectricField);" -display_type "scalar"
 end_edge_model
 
 begin_edge_model "contactcharge_edge:Potential@n0"
-COMMAND edge_model -device "MyDevice" -region "MyRegion" -name "contactcharge_edge:Potential@n0" -equation "(Permittivity * ElectricField:Potential@n0);" -display_type "scalar"
+COMMAND edge_model -device "diode1" -region "bulk" -name "contactcharge_edge:Potential@n0" -equation "(Permittivity * ElectricField:Potential@n0);" -display_type "scalar"
 end_edge_model
 
 begin_edge_model "contactcharge_edge:Potential@n1"
-COMMAND edge_model -device "MyDevice" -region "MyRegion" -name "contactcharge_edge:Potential@n1" -equation "(Permittivity * ElectricField:Potential@n1);" -display_type "scalar"
+COMMAND edge_model -device "diode1" -region "bulk" -name "contactcharge_edge:Potential@n1" -equation "(Permittivity * ElectricField:Potential@n1);" -display_type "scalar"
 end_edge_model
 
 begin_edge_model "edge_index"
@@ -4562,65 +4562,65 @@ BUILTIN
 end_edge_model
 
 begin_edge_model "vdiff"
-COMMAND edge_model -device "MyDevice" -region "MyRegion" -name "vdiff" -equation "((Potential@n0 - Potential@n1) * pow(V_t,(-1)));" -display_type "scalar"
+COMMAND edge_model -device "diode1" -region "bulk" -name "vdiff" -equation "((Potential@n0 - Potential@n1) * pow(V_t,(-1)));" -display_type "scalar"
 end_edge_model
 
 begin_edge_model "vdiff:Potential@n0"
-COMMAND edge_model -device "MyDevice" -region "MyRegion" -name "vdiff:Potential@n0" -equation "pow(V_t,(-1));" -display_type "scalar"
+COMMAND edge_model -device "diode1" -region "bulk" -name "vdiff:Potential@n0" -equation "pow(V_t,(-1));" -display_type "scalar"
 end_edge_model
 
 begin_edge_model "vdiff:Potential@n1"
-COMMAND edge_model -device "MyDevice" -region "MyRegion" -name "vdiff:Potential@n1" -equation "(-vdiff:Potential@n0);" -display_type "scalar"
+COMMAND edge_model -device "diode1" -region "bulk" -name "vdiff:Potential@n1" -equation "(-vdiff:Potential@n0);" -display_type "scalar"
 end_edge_model
 
 begin_equation "ElectronContinuityEquation"
-COMMAND equation -device "MyDevice" -region "MyRegion" -name "ElectronContinuityEquation" -variable_name "Electrons" -variable_update "positive" -node_model "ElectronGeneration" -edge_model "ElectronCurrent" -edge_volume_model "" -element_model "" -volume_node0_model "" -volume_node1_model "" -time_node_model "NCharge"
+COMMAND equation -device "diode1" -region "bulk" -name "ElectronContinuityEquation" -variable_name "Electrons" -variable_update "positive" -node_model "ElectronGeneration" -edge_model "ElectronCurrent" -edge_volume_model "" -element_model "" -volume_node0_model "" -volume_node1_model "" -time_node_model "NCharge"
 end_equation
 
 begin_equation "HoleContinuityEquation"
-COMMAND equation -device "MyDevice" -region "MyRegion" -name "HoleContinuityEquation" -variable_name "Holes" -variable_update "positive" -node_model "HoleGeneration" -edge_model "HoleCurrent" -edge_volume_model "" -element_model "" -volume_node0_model "" -volume_node1_model "" -time_node_model "PCharge"
+COMMAND equation -device "diode1" -region "bulk" -name "HoleContinuityEquation" -variable_name "Holes" -variable_update "positive" -node_model "HoleGeneration" -edge_model "HoleCurrent" -edge_volume_model "" -element_model "" -volume_node0_model "" -volume_node1_model "" -time_node_model "PCharge"
 end_equation
 
 begin_equation "PotentialEquation"
-COMMAND equation -device "MyDevice" -region "MyRegion" -name "PotentialEquation" -variable_name "Potential" -variable_update "log_damp" -node_model "PotentialNodeCharge" -edge_model "PotentialEdgeFlux" -edge_volume_model "" -element_model "" -volume_node0_model "" -volume_node1_model "" -time_node_model ""
+COMMAND equation -device "diode1" -region "bulk" -name "PotentialEquation" -variable_name "Potential" -variable_update "log_damp" -node_model "PotentialNodeCharge" -edge_model "PotentialEdgeFlux" -edge_volume_model "" -element_model "" -volume_node0_model "" -volume_node1_model "" -time_node_model ""
 end_equation
 
 end_region
 
-begin_contact "bot" "MyRegion" "metal"
+begin_contact "bot" "bulk" "metal"
 begin_nodes
 464
 end_nodes
 
 begin_equation "ElectronContinuityEquation"
-COMMAND contact_equation -device "MyDevice" -contact "bot" -name "ElectronContinuityEquation" -edge_charge_model "" -edge_current_model "ElectronCurrent" -edge_model "" -edge_volume_model "" -element_charge_model "" -element_current_model "" -element_model "" -volume_node0_model "" -volume_node1_model "" -node_charge_model "" -node_current_model "" -node_model "botnodeelectrons" -circuit_node ""
+COMMAND contact_equation -device "diode1" -contact "bot" -name "ElectronContinuityEquation" -edge_charge_model "" -edge_current_model "ElectronCurrent" -edge_model "" -edge_volume_model "" -element_charge_model "" -element_current_model "" -element_model "" -volume_node0_model "" -volume_node1_model "" -node_charge_model "" -node_current_model "" -node_model "botnodeelectrons" -circuit_node ""
 end_equation
 
 begin_equation "HoleContinuityEquation"
-COMMAND contact_equation -device "MyDevice" -contact "bot" -name "HoleContinuityEquation" -edge_charge_model "" -edge_current_model "HoleCurrent" -edge_model "" -edge_volume_model "" -element_charge_model "" -element_current_model "" -element_model "" -volume_node0_model "" -volume_node1_model "" -node_charge_model "" -node_current_model "" -node_model "botnodeholes" -circuit_node ""
+COMMAND contact_equation -device "diode1" -contact "bot" -name "HoleContinuityEquation" -edge_charge_model "" -edge_current_model "HoleCurrent" -edge_model "" -edge_volume_model "" -element_charge_model "" -element_current_model "" -element_model "" -volume_node0_model "" -volume_node1_model "" -node_charge_model "" -node_current_model "" -node_model "botnodeholes" -circuit_node ""
 end_equation
 
 begin_equation "PotentialEquation"
-COMMAND contact_equation -device "MyDevice" -contact "bot" -name "PotentialEquation" -edge_charge_model "contactcharge_edge" -edge_current_model "" -edge_model "" -edge_volume_model "" -element_charge_model "" -element_current_model "" -element_model "" -volume_node0_model "" -volume_node1_model "" -node_charge_model "" -node_current_model "" -node_model "botnodemodel" -circuit_node ""
+COMMAND contact_equation -device "diode1" -contact "bot" -name "PotentialEquation" -edge_charge_model "contactcharge_edge" -edge_current_model "" -edge_model "" -edge_volume_model "" -element_charge_model "" -element_current_model "" -element_model "" -volume_node0_model "" -volume_node1_model "" -node_charge_model "" -node_current_model "" -node_model "botnodemodel" -circuit_node ""
 end_equation
 
 end_contact
 
-begin_contact "top" "MyRegion" "metal"
+begin_contact "top" "bulk" "metal"
 begin_nodes
 0
 end_nodes
 
 begin_equation "ElectronContinuityEquation"
-COMMAND contact_equation -device "MyDevice" -contact "top" -name "ElectronContinuityEquation" -edge_charge_model "" -edge_current_model "ElectronCurrent" -edge_model "" -edge_volume_model "" -element_charge_model "" -element_current_model "" -element_model "" -volume_node0_model "" -volume_node1_model "" -node_charge_model "" -node_current_model "" -node_model "topnodeelectrons" -circuit_node ""
+COMMAND contact_equation -device "diode1" -contact "top" -name "ElectronContinuityEquation" -edge_charge_model "" -edge_current_model "ElectronCurrent" -edge_model "" -edge_volume_model "" -element_charge_model "" -element_current_model "" -element_model "" -volume_node0_model "" -volume_node1_model "" -node_charge_model "" -node_current_model "" -node_model "topnodeelectrons" -circuit_node ""
 end_equation
 
 begin_equation "HoleContinuityEquation"
-COMMAND contact_equation -device "MyDevice" -contact "top" -name "HoleContinuityEquation" -edge_charge_model "" -edge_current_model "HoleCurrent" -edge_model "" -edge_volume_model "" -element_charge_model "" -element_current_model "" -element_model "" -volume_node0_model "" -volume_node1_model "" -node_charge_model "" -node_current_model "" -node_model "topnodeholes" -circuit_node ""
+COMMAND contact_equation -device "diode1" -contact "top" -name "HoleContinuityEquation" -edge_charge_model "" -edge_current_model "HoleCurrent" -edge_model "" -edge_volume_model "" -element_charge_model "" -element_current_model "" -element_model "" -volume_node0_model "" -volume_node1_model "" -node_charge_model "" -node_current_model "" -node_model "topnodeholes" -circuit_node ""
 end_equation
 
 begin_equation "PotentialEquation"
-COMMAND contact_equation -device "MyDevice" -contact "top" -name "PotentialEquation" -edge_charge_model "contactcharge_edge" -edge_current_model "" -edge_model "" -edge_volume_model "" -element_charge_model "" -element_current_model "" -element_model "" -volume_node0_model "" -volume_node1_model "" -node_charge_model "" -node_current_model "" -node_model "topnodemodel" -circuit_node ""
+COMMAND contact_equation -device "diode1" -contact "top" -name "PotentialEquation" -edge_charge_model "contactcharge_edge" -edge_current_model "" -edge_model "" -edge_volume_model "" -element_charge_model "" -element_current_model "" -element_model "" -volume_node0_model "" -volume_node1_model "" -node_charge_model "" -node_current_model "" -node_model "topnodemodel" -circuit_node ""
 end_equation
 
 end_contact
