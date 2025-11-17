@@ -21,3 +21,6 @@ _build/
 # === Other temporary or system files ===
 .DS_Store
 *.log
+
+# === Other file ===
+kdm

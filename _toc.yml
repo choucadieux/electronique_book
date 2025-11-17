@@ -14,6 +14,9 @@ parts:
     chapters:
     - file: General/Pont_diode
     - file: General/Diode_roue_libre
+  - caption: Regulateur
+    chapters:
+    - file: Regulateur/Pond_diviseur_tension
   - caption: Amplificator
     chapters:
     - file: AOP/01_Introduction_amplificateur
