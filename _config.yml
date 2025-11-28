@@ -1,6 +1,5 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
-
 title: Book on electronics
 author: Sacha COMTE
 logo: logo.png
@@ -30,3 +29,7 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+
+latex:
+  latex_engine: "xelatex"
+

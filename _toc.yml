@@ -17,6 +17,9 @@ parts:
   - caption: Regulateur
     chapters:
     - file: Regulateur/Pond_diviseur_tension
+    - file: Regulateur/Diode_Zener
+    - file: Regulateur/regulateur_tension_serie_transistor_2
+    - file: Regulateur/regulateur_tension_serie_AOP_2
   - caption: Amplificator
     chapters:
     - file: AOP/01_Introduction_amplificateur
