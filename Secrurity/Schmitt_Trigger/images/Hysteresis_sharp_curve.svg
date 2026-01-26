@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="427" height="427" version="1.0">
+<path d="M216.38 30.6l-10.7 31.5h21.4ZM419.4 226.93l-31.5-10.7v21.4Z"/>
+<g fill="none" stroke-width="3">
+<path d="M17.72 227.16h380M216.12 409.1V53" stroke="#000"/>
+<path d="M404.7 109.4H136.53v237m-108.79 0H296.12v-237m-12 72.4 12-27.64 12 27.64m-126-60.58-27.64-12 27.64-12m70 237 27.63 12-27.63 12m-128-77.56 12 27.64 12-27.64" stroke="#F00" stroke-linecap="round" stroke-linejoin="round"/>
+<g fill="#00F" stroke="#00F" stroke-dasharray=".06,.06">
+<circle cx="136.12" cy="227.16" r="1.5"/>
+<circle cx="216.12" cy="109.4" r="1.5"/>
+<circle cx="296.12" cy="227.16" r="1.5"/>
+<circle cx="216.12" cy="346.4" r="1.5"/>
+</g>
+</g>
+<g font-family="DejaVu Condensed Sans" font-size="28" font-weight="bold">
+<switch><text y="261.6" x="391.39" id="trsvg7-bn" systemLanguage="bn"><tspan id="trsvg1-bn">ইন</tspan></text><text y="261.6" x="391.39" id="trsvg7"><tspan id="trsvg1">in</tspan></text></switch>
+<switch><text y="26.75" x="187.36" id="trsvg8-bn" systemLanguage="bn"><tspan id="trsvg2-bn">আউটপুট</tspan></text><text y="26.75" x="187.36" id="trsvg8"><tspan id="trsvg2">out</tspan></text></switch>
+<g fill="#00F">
+<switch><text y="255.16" x="305.48" id="trsvg9"><tspan id="trsvg3">T</tspan></text></switch>
+<switch><text y="252.57" x="98.1" id="trsvg10"><tspan id="trsvg4">-T</tspan></text></switch>
+<switch><text y="101.16" x="222.34" id="trsvg11"><tspan id="trsvg5">M</tspan></text></switch>
+<switch><text y="374.57" x="172.69" id="trsvg12"><tspan id="trsvg6">-M</tspan></text></switch>
+</g>
+</g>
+</svg>

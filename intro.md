@@ -17,5 +17,4 @@ All projects within this ecosystem will share a **common visual identity** — a
 Finally, I truly value your feedback — whether it’s to improve sections of code, fix mistakes, or enhance clarity.  
 Every contribution helps make this resource better for everyone.
 
-```{tableofcontents}
-```
+

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="251.59311mm"
+   height="85.443314mm"
+   viewBox="0 0 251.59311 85.443314"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="chronogramme-fondamental.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.34431467"
+     inkscape:cx="225.0848"
+     inkscape:cy="312.2144"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-8.1377973,-100.06889)">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linejoin:round;stroke-opacity:1;paint-order:fill markers stroke"
+       d="M 8.1377973,121.79689 H 48.603492 l 20.267464,-21.228 h 34.867724 l 21.08392,21.08392 h 28.67222 l 30.93188,-17.85853 h 32.65609 l 20.71994,18.07411 h 21.92818"
+       id="path1"
+       sodipodi:nodetypes="cccccccccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linejoin:round;stroke-opacity:1;paint-order:fill markers stroke"
+       d="M 8.1377973,170.20827 H 65.105142 l 6.411647,-21.228 H 98.97618 l 5.86969,21.08392 h 75.43195 l 8.38221,-17.85853 h 23.66026 l 7.67917,18.07411 h 39.73145"
+       id="path2"
+       sodipodi:nodetypes="cccccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:9.95598px;line-height:10.1127px;font-family:serif;-inkscape-font-specification:'serif Italic';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:none;stroke:#000000;stroke-width:2.35181;stroke-linejoin:round;stroke-opacity:1;paint-order:fill markers stroke"
+       x="19.77832"
+       y="120.09961"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.35181"
+         x="19.77832"
+         y="120.09961">SDA</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:9.95598px;line-height:10.1127px;font-family:serif;-inkscape-font-specification:'serif Italic';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:none;stroke:#000000;stroke-width:2.35181;stroke-linejoin:round;stroke-opacity:1;paint-order:fill markers stroke"
+       x="19.77832"
+       y="167.91576"
+       id="text3"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.35181"
+         x="19.77832"
+         y="167.91576">SCL</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:5.81112px;line-height:5.90261px;font-family:serif;-inkscape-font-specification:'serif Italic';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.37271;stroke-linejoin:round;stroke-opacity:1;paint-order:fill markers stroke"
+       x="85.049629"
+       y="179.55148"
+       id="text4"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         style="stroke-width:1.37271"
+         x="85.049629"
+         y="179.55148">The data must </tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:1.37271"
+         x="85.049629"
+         y="185.45409"
+         id="tspan5">be stable</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:5.81112px;line-height:5.90261px;font-family:serif;-inkscape-font-specification:'serif Italic';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.37271;stroke-linejoin:round;stroke-opacity:1;paint-order:fill markers stroke"
+       x="201.87318"
+       y="179.55148"
+       id="text7"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         style="stroke-width:1.37271"
+         x="201.87318"
+         y="179.55148">The data must </tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:1.37271"
+         x="201.87318"
+         y="185.45409"
+         id="tspan7">be stable</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:5.81112px;line-height:5.90261px;font-family:serif;-inkscape-font-specification:'serif Italic';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.37271;stroke-linejoin:round;stroke-opacity:1;paint-order:fill markers stroke"
+       x="85.049629"
+       y="109.38578"
+       id="text9"><tspan
+         sodipodi:role="line"
+         style="stroke-width:1.37271"
+         x="85.049629"
+         y="109.38578"
+         id="tspan9">Stable </tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:1.37271"
+         x="85.049629"
+         y="115.28839"
+         id="tspan12">data</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:5.81112px;line-height:5.90261px;font-family:serif;-inkscape-font-specification:'serif Italic';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.37271;stroke-linejoin:round;stroke-opacity:1;paint-order:fill markers stroke"
+       x="200.78645"
+       y="113.80428"
+       id="text10"><tspan
+         sodipodi:role="line"
+         style="stroke-width:1.37271"
+         x="200.78645"
+         y="113.80428"
+         id="tspan10">Stable </tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:1.37271"
+         x="200.78645"
+         y="119.70689"
+         id="tspan14">data</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linejoin:round;stroke-dasharray:2, 1;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+       d="M 98.743853,170.44038 V 101.28671"
+       id="path11"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linejoin:round;stroke-dasharray:2, 1;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+       d="M 72.328911,170.98374 V 101.55839"
+       id="path12"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linejoin:round;stroke-dasharray:2, 1;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+       d="M 211.79981,170.20828 V 104.41106"
+       id="path13"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linejoin:round;stroke-dasharray:2, 1;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+       d="M 188.74676,170.68855 V 104.41106"
+       id="path14"
+       sodipodi:nodetypes="cc" />
+  </g>
+</svg>

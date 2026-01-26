@@ -3,24 +3,40 @@
 
 format: jb-book
 root: intro
+
 parts:
-  - caption: Introduction  
+  
+  # ============================================================
+  # Basics
+  # ============================================================
+  - caption: Basic Electronics - Component  
     chapters:
     - file: Base_componant/Capacite
     - file: Base_componant/diode/Diode 
     - file: Base_componant/transistor/JFET
     - file: Base_componant/transistor/Bipolaire
-  - caption: General circuit
+
+  - caption: Passif circuit
+    chapters:
+    - file: Passif/RC
+  
+  - caption: Basic Electronics - Essential Circuit  
     chapters:
     - file: General/Pont_diode
     - file: General/Diode_roue_libre
-  - caption: Regulateur
+  
+  # ============================================================
+  # Analog electronics
+  # ============================================================
+  - caption: Analog electronics - Regulator
     chapters:
-    - file: Regulateur/Pond_diviseur_tension
-    - file: Regulateur/Diode_Zener
-    - file: Regulateur/regulateur_tension_serie_transistor_2
-    - file: Regulateur/regulateur_tension_serie_AOP_2
-  - caption: Amplificator
+    - file: Alimentation/Regulateur/intro
+    - file: Alimentation/Regulateur/Pond_diviseur_tension
+    - file: Alimentation/Regulateur/Diode_Zener
+    - file: Alimentation/Regulateur/regulateur_tension_serie_transistor_2
+    - file: Alimentation/Regulateur/regulateur_tension_serie_AOP_2
+  
+  - caption: Analog electronics - Amplificator
     chapters:
     - file: AOP/01_Introduction_amplificateur
     - file: AOP/02_Inverting_amplifier
@@ -35,7 +51,35 @@ parts:
     - file: AOP/11_class_C
     - file: AOP/12_class_D
     - file: AOP/13_class_E
-  - caption: Microelectronics
+
+  # ============================================================
+  # Digital electronics
+  # ============================================================
+  - caption: Logic Gate
     chapters:
-    - file: Logicol/Introduction_bar_metal_Layout
-    - file: Logicol/Jonction_PN
+    - file: Logicol/Porte/NOT
+    - file: Logicol/Porte/AND
+    - file: Logicol/Porte/OR
+    - file: Logicol/Porte/XOR
+  
+  - caption: Digital electronics - Schmit Trigger
+    chapters:
+    - file: Secrurity/Schmitt_Trigger/intro
+    - file: Secrurity/Schmitt_Trigger/Hysteresis_aop
+    - file: Secrurity/Schmitt_Trigger/Hysteresis_transistor
+  
+  - caption: Digital electronics - Microelectronics
+    chapters:
+    - file: Logicol/Introduction/Introduction_bar_metal_Layout
+    - file: Logicol/Introduction/Jonction_PN
+
+
+  # ============================================================
+  # Communication protocol
+  # ============================================================
+
+
+
+  # ============================================================
+  # Software
+  # ============================================================
