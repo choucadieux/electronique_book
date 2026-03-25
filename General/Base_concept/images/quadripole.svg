@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="165.61974mm"
+   height="58.331203mm"
+   viewBox="0 0 165.61974 58.331203"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="quadriôle.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.3772587"
+     inkscape:cx="387.36368"
+     inkscape:cy="189.14384"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <rect
+       x="564.75769"
+       y="414.84021"
+       width="148.89067"
+       height="65.717262"
+       id="rect10" />
+    <marker
+       style="overflow:visible"
+       id="RoundedArrow"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+    <rect
+       x="235.24992"
+       y="467.59552"
+       width="425.48288"
+       height="120.52928"
+       id="rect2" />
+    <rect
+       x="564.75769"
+       y="414.84021"
+       width="148.89067"
+       height="65.717262"
+       id="rect11" />
+    <rect
+       x="564.75769"
+       y="414.84021"
+       width="148.89067"
+       height="65.717262"
+       id="rect12" />
+    <rect
+       x="564.75769"
+       y="414.84021"
+       width="148.89067"
+       height="65.717262"
+       id="rect16" />
+    <rect
+       x="564.75769"
+       y="414.84021"
+       width="148.89067"
+       height="65.717262"
+       id="rect18" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-22.082641,-117.48929)">
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect1"
+       width="77.076057"
+       height="51.197525"
+       x="66.461975"
+       y="123.62296" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:12.1985px;line-height:12.3906px;font-family:serif;-inkscape-font-specification:'serif Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.93977;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+       x="69.789032"
+       y="152.47873"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="fill:#000000;fill-opacity:1;stroke-width:4.93977"
+         x="69.789032"
+         y="152.47873">Quadripôle</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:fill markers stroke"
+       d="M 65.475527,131.63026 H 33.824494"
+       id="path2" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:fill markers stroke"
+       d="M 65.475527,166.81317 H 33.824494"
+       id="path3" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:fill markers stroke"
+       d="M 175.50701,131.63026 H 143.85598"
+       id="path4" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:fill markers stroke"
+       d="M 175.50701,166.81317 H 143.85598"
+       id="path5" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle);paint-order:fill markers stroke"
+       d="M 47.748232,131.49442 H 51.75555"
+       id="path6" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle);paint-order:fill markers stroke"
+       d="m 162.86775,131.49442 h -4.00732"
+       id="path7" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#RoundedArrow);paint-order:fill markers stroke"
+       d="M 33.824494,163.75673 V 138.89777"
+       id="path8"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#RoundedArrow);paint-order:fill markers stroke"
+       d="M 175.09949,163.75673 V 138.89777"
+       id="path10"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.46803436,0,0,0.46803436,-216.21269,-77.358005)"
+       id="text11"
+       style="font-weight:bold;font-size:18.6667px;line-height:18.9606px;font-family:serif;-inkscape-font-specification:'serif Bold';text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect11);display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"><tspan
+         x="564.75781"
+         y="429.63782"
+         id="tspan15"><tspan
+           style="font-style:italic;font-weight:normal;-inkscape-font-specification:'serif Italic';fill:#000000;stroke:none"
+           id="tspan1">I</tspan><tspan
+           style="font-style:italic;font-weight:normal;font-size:65%;-inkscape-font-specification:'serif Italic';baseline-shift:sub;fill:#000000;stroke:none"
+           id="tspan14">1</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.46803436,0,0,0.46803436,-109.78449,-77.358005)"
+       id="text12"
+       style="font-weight:bold;font-size:18.6667px;line-height:18.9606px;font-family:serif;-inkscape-font-specification:'serif Bold';text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect12);display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"><tspan
+         x="564.75781"
+         y="429.63782"
+         id="tspan18"><tspan
+           style="font-style:italic;font-weight:normal;-inkscape-font-specification:'serif Italic';fill:#000000;stroke:none"
+           id="tspan16">I</tspan><tspan
+           style="font-style:italic;font-weight:normal;font-size:65%;-inkscape-font-specification:'serif Italic';baseline-shift:sub;fill:#000000;stroke:none"
+           id="tspan17">2</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.46803436,0,0,0.46803436,-242.24342,-49.886466)"
+       id="text16"
+       style="font-weight:bold;font-size:18.6667px;line-height:18.9606px;font-family:serif;-inkscape-font-specification:'serif Bold';text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect16);display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"><tspan
+         x="564.75781"
+         y="429.63782"
+         id="tspan21"><tspan
+           style="font-style:italic;font-weight:normal;-inkscape-font-specification:'serif Italic';fill:#000000;stroke:none"
+           id="tspan19">V</tspan><tspan
+           style="font-style:italic;font-weight:normal;font-size:65%;-inkscape-font-specification:'serif Italic';baseline-shift:sub;fill:#000000;stroke:none"
+           id="tspan20">1</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.46803436,0,0,0.46803436,-85.674856,-49.886466)"
+       id="text18"
+       style="font-weight:bold;font-size:18.6667px;line-height:18.9606px;font-family:serif;-inkscape-font-specification:'serif Bold';text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect18);display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"><tspan
+         x="564.75781"
+         y="429.63782"
+         id="tspan24"><tspan
+           style="font-style:italic;font-weight:normal;-inkscape-font-specification:'serif Italic';fill:#000000;stroke:none"
+           id="tspan22">V</tspan><tspan
+           style="font-style:italic;font-weight:normal;font-size:65%;-inkscape-font-specification:'serif Italic';baseline-shift:sub;fill:#000000;stroke:none"
+           id="tspan23">2</tspan></tspan></text>
+  </g>
+</svg>

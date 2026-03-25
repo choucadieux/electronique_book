@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="207.71707mm"
-   height="130.21919mm"
-   viewBox="0 0 207.71707 130.21919"
+   width="242.22845mm"
+   height="149.95561mm"
+   viewBox="0 0 242.22845 149.95561"
    version="1.1"
    id="svg1"
    xml:space="preserve"
@@ -24,8 +24,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="0.68862935"
-     inkscape:cx="498.09088"
-     inkscape:cy="296.96672"
+     inkscape:cx="477.03456"
+     inkscape:cy="510.43424"
      inkscape:window-width="1920"
      inkscape:window-height="991"
      inkscape:window-x="-9"
@@ -244,42 +244,86 @@
        y="69.824593"
        width="183.62679"
        height="86.545807"
-       id="rect8" /></defs><g
+       id="rect8" /><rect
+       x="223.84943"
+       y="69.824593"
+       width="169.10519"
+       height="96.71093"
+       id="rect5" /><rect
+       x="223.84943"
+       y="69.824593"
+       width="169.10519"
+       height="96.71093"
+       id="rect7" /><rect
+       x="223.84943"
+       y="69.824593"
+       width="169.10519"
+       height="96.71093"
+       id="rect9" /><rect
+       x="223.84943"
+       y="69.824593"
+       width="169.10519"
+       height="96.71093"
+       id="rect28" /><rect
+       x="223.84943"
+       y="69.824593"
+       width="169.10519"
+       height="96.71093"
+       id="rect31" /><rect
+       x="223.84943"
+       y="69.824593"
+       width="169.10519"
+       height="96.71093"
+       id="rect32" /><rect
+       x="223.84943"
+       y="69.824593"
+       width="169.10519"
+       height="96.71093"
+       id="rect36" /><rect
+       x="223.84943"
+       y="69.824593"
+       width="169.10519"
+       height="96.71093"
+       id="rect37" /></defs><g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(5.5431167,-5.5291349)"><text
+     transform="translate(23.401991,3.7592953)"><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,15.410859,-13.584134)"
        id="text1"
        style="font-style:italic;font-size:30.6667px;line-height:31.1495px;font-family:serif;-inkscape-font-specification:'serif Italic';text-align:center;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1);display:inline;fill:#000000;stroke:#000000;stroke-width:7.55906;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"><tspan
-         x="305.31309"
+         x="304.46975"
          y="94.135151"
-         id="tspan10"><tspan
+         id="tspan4"><tspan
            style="stroke:none"
-           id="tspan9">V
+           id="tspan1">U
 </tspan></tspan><tspan
          x="262.16502"
          y="125.28466"
-         id="tspan12"><tspan
+         id="tspan38"><tspan
    style="stroke:none"
-   id="tspan11">Voltage</tspan>
+   id="tspan37">Voltage</tspan>
 </tspan></text><text
        xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,-74.441055,44.848194)"
+       transform="matrix(0.26458333,0,0,0.26458333,-73.382721,45.377361)"
        id="text4"
        style="font-style:italic;font-size:30.6667px;line-height:31.1495px;font-family:serif;-inkscape-font-specification:'serif Italic';text-align:center;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect4);display:inline;fill:#000000;stroke:#000000;stroke-width:7.55906;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"><tspan
          x="311.00173"
          y="94.135151"
-         id="tspan16"><tspan
+         id="tspan40"><tspan
            style="stroke:none"
-           id="tspan13">i
+           id="tspan39">i
 </tspan></tspan><tspan
          x="258.80699"
          y="125.28466"
-         id="tspan18"><tspan
-   style="stroke:none"
-   id="tspan17">Courent</tspan>
+         id="tspan42"><tspan
+           style="stroke:none"
+           id="tspan41">Courent
+</tspan></tspan><tspan
+         x="223.84961"
+         y="156.43416"
+         id="tspan48">
 </tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,15.6989,102.15269)"
@@ -287,15 +331,15 @@
        style="font-style:italic;font-size:30.6667px;line-height:31.1495px;font-family:serif;-inkscape-font-specification:'serif Italic';text-align:center;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect6);display:inline;fill:#000000;stroke:#000000;stroke-width:7.55906;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"><tspan
          x="304.94508"
          y="94.135151"
-         id="tspan20"><tspan
+         id="tspan53"><tspan
            style="stroke:none"
-           id="tspan19">ϕ
+           id="tspan52">ϕ
 </tspan></tspan><tspan
          x="284.39836"
          y="125.28466"
-         id="tspan22"><tspan
+         id="tspan55"><tspan
    style="stroke:none"
-   id="tspan21">Flux</tspan>
+   id="tspan54">Flux</tspan>
 </tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,105.41288,43.042852)"
@@ -303,15 +347,15 @@
        style="font-style:italic;font-size:30.6667px;line-height:31.1495px;font-family:serif;-inkscape-font-specification:'serif Italic';text-align:center;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect8);display:inline;fill:#000000;stroke:#000000;stroke-width:7.55906;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"><tspan
          x="307.07642"
          y="94.135151"
-         id="tspan24"><tspan
+         id="tspan57"><tspan
            style="stroke:none"
-           id="tspan23">q
+           id="tspan56">q
 </tspan></tspan><tspan
          x="265.03233"
          y="125.28466"
-         id="tspan26"><tspan
+         id="tspan59"><tspan
    style="stroke:none"
-   id="tspan25">Charge</tspan>
+   id="tspan58">Charge</tspan>
 </tspan></text><path
        style="fill:none;stroke:#000000;stroke-width:1.1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Triangle);marker-end:url(#Triangle);paint-order:fill markers stroke"
        d="M 74.538162,11.330938 H 10.181759 V 55.70804"
@@ -363,22 +407,22 @@
        id="path15"
        inkscape:path-effect="#path-effect15"
        inkscape:original-d="m 35.590432,38.035576 c 12.859647,0 25.719293,0 38.57894,0"
-       transform="translate(0,-8.64489)" /><circle
+       transform="translate(-7.9375004,-8.64489)" /><circle
        style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
        id="path16"
-       cx="35.28479"
+       cx="27.347282"
        cy="29.288807"
        r="1.1886116" /><circle
        style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
        id="circle16"
-       cx="74.814621"
+       cx="66.877113"
        cy="29.288807"
        r="1.1886116" /><rect
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
        id="rect16"
        width="22.284605"
        height="6.9159117"
-       x="43.907402"
+       x="35.969894"
        y="25.742561"
        ry="0" /><path
        style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
@@ -444,19 +488,19 @@
        id="path29"
        inkscape:path-effect="#path-effect32"
        inkscape:original-d="m 35.590432,38.035576 c 12.859647,0 25.719293,0 38.57894,0"
-       transform="translate(2.5937849,57.6326)" /><circle
+       transform="translate(-8.5187157,57.6326)" /><circle
        style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
        id="circle29"
-       cx="37.878582"
+       cx="26.766071"
        cy="95.566299"
        r="1.1886116" /><circle
        style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
        id="circle30"
-       cx="77.408409"
+       cx="66.295898"
        cy="95.566299"
        r="1.1886116" /><g
        id="g43"
-       transform="translate(-1.1417554,-5.76326)"><rect
+       transform="translate(-12.254257,-5.76326)"><rect
          style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
          id="rect30"
          width="19.691158"
@@ -500,44 +544,44 @@
        y="84.960052" /><text
        xml:space="preserve"
        style="font-style:italic;font-size:8.1139px;line-height:8.24164px;font-family:serif;-inkscape-font-specification:'serif Italic';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.1;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-       x="54.608215"
+       x="46.670708"
        y="45.584766"
        id="text43"><tspan
          sodipodi:role="line"
          id="tspan43"
          style="stroke-width:1.1"
-         x="54.608215"
+         x="46.670708"
          y="45.584766">Resistor</tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-size:8.1139px;line-height:8.24164px;font-family:serif;-inkscape-font-specification:'serif Italic';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.1;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-       x="54.608215"
+       x="46.670708"
        y="58.263939"
        id="text44"><tspan
          sodipodi:role="line"
          id="tspan44"
          style="stroke-width:1.1"
-         x="54.608215"
-         y="58.263939">dv = R di</tspan></text><text
+         x="46.670708"
+         y="58.263939">V = R I</tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-size:8.1139px;line-height:8.24164px;font-family:serif;-inkscape-font-specification:'serif Italic';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.1;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-       x="54.608215"
+       x="43.495705"
        y="109.36485"
        id="text45"><tspan
          sodipodi:role="line"
          id="tspan45"
          style="stroke-width:1.1"
-         x="54.608215"
+         x="43.495705"
          y="109.36485">Inductor</tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-size:8.1139px;line-height:8.24164px;font-family:serif;-inkscape-font-specification:'serif Italic';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.1;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-       x="54.608215"
+       x="43.495705"
        y="122.04401"
        id="text46"><tspan
          sodipodi:role="line"
          id="tspan46"
          style="stroke-width:1.1"
-         x="54.608215"
-         y="122.04401">dϕ = L di</tspan></text><text
+         x="43.495705"
+         y="122.04401">ϕ = L I</tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-size:8.1139px;line-height:8.24164px;font-family:serif;-inkscape-font-specification:'serif Italic';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.1;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
        x="157.19424"
@@ -547,7 +591,7 @@
          id="tspan47"
          style="stroke-width:1.1"
          x="157.19424"
-         y="45.584766">Resistor</tspan></text><text
+         y="45.584766">Capacitor</tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-size:8.1139px;line-height:8.24164px;font-family:serif;-inkscape-font-specification:'serif Italic';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.1;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
        x="157.19424"
@@ -567,7 +611,7 @@
          id="tspan50"
          style="stroke-width:1.1"
          x="157.19424"
-         y="122.04401">dϕ = M dq</tspan></text><text
+         y="122.04401">ϕ = M q</tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-size:8.1139px;line-height:8.24164px;font-family:serif;-inkscape-font-specification:'serif Italic';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.1;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
        x="157.19424"
@@ -577,4 +621,186 @@
          id="tspan51"
          style="stroke-width:1.1"
          x="157.19424"
-         y="59.285309">dq = C dv</tspan></text></g></svg>
+         y="59.285309">q = C V</tspan></text><text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-99.792523,62.900894)"
+       id="text5"
+       style="font-style:italic;font-size:18.6667px;line-height:18.9606px;font-family:serif;-inkscape-font-specification:'serif Italic';text-align:center;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect5);display:inline;fill:#000000;stroke:#000000;stroke-width:7.55906;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+       x="75.805527"
+       y="0"><tspan
+         x="316.8696"
+         y="84.622198"
+         id="tspan61"><tspan
+           style="text-align:end;text-anchor:end;fill:#515151;stroke:none"
+           id="tspan60">Amperes
+</tspan></tspan><tspan
+         x="296.44816"
+         y="103.5828"
+         id="tspan63"><tspan
+           style="text-align:end;text-anchor:end;fill:#515151;stroke:none"
+           id="tspan62">dim[I] =   A
+</tspan></tspan><tspan
+         x="288.72012"
+         y="122.5434"
+         id="tspan66"><tspan
+           style="text-align:end;text-anchor:end;fill:#515151;stroke:none"
+           id="tspan64"> dim[I] = C/s</tspan><tspan
+           style="text-align:end;text-anchor:end"
+           id="tspan65">
+</tspan></tspan></text><text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,135.95707,61.313393)"
+       id="text7"
+       style="font-style:italic;font-size:18.6667px;line-height:18.9606px;font-family:serif;-inkscape-font-specification:'serif Italic';text-align:center;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect7);display:inline;fill:#000000;stroke:#000000;stroke-width:7.55906;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+       x="75.805527"
+       y="0"><tspan
+         x="223.84961"
+         y="84.622198"
+         id="tspan68"><tspan
+           style="text-align:start;fill:#515151;stroke:none"
+           id="tspan67">Coulombs
+</tspan></tspan><tspan
+         x="223.84961"
+         y="103.5828"
+         id="tspan71"><tspan
+           style="text-align:start;fill:#515151;stroke:none"
+           id="tspan69">dim[q] = C</tspan><tspan
+           style="text-align:start"
+           id="tspan70">
+</tspan></tspan></text><text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,53.256031,117.6047)"
+       id="text9"
+       style="font-style:italic;font-size:18.6667px;line-height:18.9606px;font-family:serif;-inkscape-font-specification:'serif Italic';text-align:center;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect9);display:inline;fill:#000000;stroke:#000000;stroke-width:7.55906;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+       x="75.805527"
+       y="0"><tspan
+         x="223.84961"
+         y="84.622198"
+         id="tspan73"><tspan
+           style="text-align:start;fill:#515151;stroke:none"
+           id="tspan72">Webers
+</tspan></tspan><tspan
+         x="223.84961"
+         y="103.5828"
+         id="tspan78"><tspan
+           style="text-align:start;fill:#515151;stroke:none"
+           id="tspan74">dim[</tspan><tspan
+           style="text-align:start;fill:#515151;stroke:none"
+           id="tspan75">ϕ</tspan><tspan
+           style="text-align:start;fill:#515151;stroke:none"
+           id="tspan76">] = Wb</tspan><tspan
+           style="text-align:start"
+           id="tspan77">
+</tspan></tspan></text><text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,51.298203,-22.395356)"
+       id="text28"
+       style="font-style:italic;font-size:18.6667px;line-height:18.9606px;font-family:serif;-inkscape-font-specification:'serif Italic';text-align:center;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect28);display:inline;fill:#000000;stroke:#000000;stroke-width:7.55906;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+       x="75.805527"
+       y="0"><tspan
+         x="223.84961"
+         y="84.622198"
+         id="tspan80"><tspan
+           style="text-align:start;fill:#515151;stroke:none"
+           id="tspan79">volts
+</tspan></tspan><tspan
+         x="223.84961"
+         y="103.5828"
+         id="tspan83"><tspan
+           style="text-align:start;fill:#515151;stroke:none"
+           id="tspan81">dim[U] = V</tspan><tspan
+           style="text-align:start"
+           id="tspan82">
+</tspan></tspan></text><text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-6.1410543,42.496296)"
+       id="text30"
+       style="font-style:italic;font-size:18.6667px;line-height:18.9606px;font-family:serif;-inkscape-font-specification:'serif Italic';text-align:center;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect31);display:inline;fill:#000000;stroke:#000000;stroke-width:7.55906;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+       x="171.30441"
+       y="0"><tspan
+         x="301.20819"
+         y="84.622198"
+         id="tspan85"><tspan
+           style="text-align:end;text-anchor:end;fill:#515151;stroke:none"
+           id="tspan84">Resistance
+</tspan></tspan><tspan
+         x="299.49087"
+         y="103.5828"
+         id="tspan89"><tspan
+           style="text-align:end;text-anchor:end;fill:#515151;stroke:none"
+           id="tspan86">dim[R] = </tspan><tspan
+           style="text-align:end;text-anchor:end;fill:#515151;stroke:none"
+           id="tspan87">Ω</tspan><tspan
+           style="text-align:end;text-anchor:end"
+           id="tspan88">
+</tspan></tspan></text><text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,52.710471,37.733793)"
+       id="text32"
+       style="font-style:italic;font-size:18.6667px;line-height:18.9606px;font-family:serif;-inkscape-font-specification:'serif Italic';text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect32);display:inline;fill:#000000;stroke:#000000;stroke-width:7.55906;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+       x="28.998743"
+       y="0"><tspan
+         x="223.84961"
+         y="84.622198"
+         id="tspan91"><tspan
+           style="fill:#515151;stroke:none"
+           id="tspan90">
+</tspan></tspan><tspan
+         x="223.84961"
+         y="103.5828"
+         id="tspan93"><tspan
+           style="fill:#515151;stroke:none"
+           id="tspan92">Farad
+</tspan></tspan><tspan
+         x="223.84961"
+         y="122.5434"
+         id="tspan95"><tspan
+   style="fill:#515151;stroke:none"
+   id="tspan94">dim[C] = F </tspan>
+</tspan></text><text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-7.4351842,64.248261)"
+       id="text34"
+       style="font-style:italic;font-size:18.6667px;line-height:18.9606px;font-family:serif;-inkscape-font-specification:'serif Italic';text-align:center;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect36);display:inline;fill:#000000;stroke:#000000;stroke-width:7.55906;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+       x="171.30441"
+       y="0"><tspan
+         x="339.1763"
+         y="84.622198"
+         id="tspan97"><tspan
+           style="text-align:end;text-anchor:end;fill:#515151;stroke:none"
+           id="tspan96">Henry
+</tspan></tspan><tspan
+         x="299.73355"
+         y="103.5828"
+         id="tspan100"><tspan
+           style="text-align:end;text-anchor:end;fill:#515151;stroke:none"
+           id="tspan98">dim[L] = H</tspan><tspan
+           style="text-align:end;text-anchor:end"
+           id="tspan99">
+</tspan></tspan></text><text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,44.25769,59.435127)"
+       id="text36"
+       style="font-style:italic;font-size:18.6667px;line-height:18.9606px;font-family:serif;-inkscape-font-specification:'serif Italic';text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect37);display:inline;fill:#000000;stroke:#000000;stroke-width:7.55906;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+       x="28.998743"
+       y="0"><tspan
+         x="223.84961"
+         y="84.622198"
+         id="tspan102"><tspan
+           style="fill:#515151;stroke:none"
+           id="tspan101">
+</tspan></tspan><tspan
+         x="223.84961"
+         y="103.5828"
+         id="tspan104"><tspan
+           style="fill:#515151;stroke:none"
+           id="tspan103">Memristance
+</tspan></tspan><tspan
+         x="223.84961"
+         y="122.5434"
+         id="tspan107"><tspan
+   style="fill:#515151;stroke:none"
+   id="tspan105">dim[C] = </tspan><tspan
+   style="fill:#515151;stroke:none"
+   id="tspan106">Ω </tspan>
+</tspan></text></g></svg>

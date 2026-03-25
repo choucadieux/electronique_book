@@ -11,7 +11,9 @@ parts:
   # ============================================================
   - caption: Basic Electronics - Component  
     chapters:
+    - file: Base_componant/Concept_base
     - file: Base_componant/Capacite
+    - file: Base_componant/Memristor
     - file: Base_componant/diode/Diode 
     - file: Base_componant/transistor/JFET
     - file: Base_componant/transistor/Bipolaire
@@ -67,12 +69,20 @@ parts:
     - file: Secrurity/Schmitt_Trigger/intro
     - file: Secrurity/Schmitt_Trigger/Hysteresis_aop
     - file: Secrurity/Schmitt_Trigger/Hysteresis_transistor
+    - file: Secrurity/Schmitt_Trigger/Hysteresis_CMOS
   
   - caption: Digital electronics - Microelectronics
     chapters:
     - file: Logicol/Introduction/Introduction_bar_metal_Layout
     - file: Logicol/Introduction/Jonction_PN
 
+
+  # ============================================================
+  # IA
+  # ============================================================
+  - caption: IA - SNN
+    chapters:
+    - file: Memristor/01_LIF_SNN  
 
   # ============================================================
   # Communication protocol
